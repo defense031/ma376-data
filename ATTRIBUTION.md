@@ -23,6 +23,26 @@ of the package's data frames; no values were changed.
 Two ISLR2 objects are lists rather than tables and have no csv here: Khan and NCI60.
 Load those from the package.
 
+## The wider canon
+
+Three more packages are mirrored the same way, for the regression, diagnostics and
+ANOVA examples Sleuth3 and ISLR2 do not carry. None is assigned by MA376; they are
+here so a reader can reach the standard worked examples.
+
+- **package_data/stat2data/** Stat2Data 2.0.0, GPL-3. Ann Cannon, George Cobb, Bradley
+  Hartlaub, Julie Legler, Robin Lock, Thomas Moore, Allan Rossman and Jeffrey Witmer.
+  Data for *Stat2: Modeling with Regression and ANOVA*. https://cran.r-project.org/package=Stat2Data
+- **package_data/cardata/** carData 3.0-5, GPL (>= 2). John Fox, Sanford Weisberg and
+  Brad Price. Data for *An R Companion to Applied Regression* (3rd ed.).
+  https://cran.r-project.org/package=carData
+- **package_data/mass/** MASS 7.3-60, GPL-2 | GPL-3. Brian Ripley and Bill Venables.
+  Data for Venables and Ripley, *Modern Applied Statistics with S* (4th ed.). Ships with R.
+  https://cran.r-project.org/package=MASS
+- **package_data/faraway/** faraway 1.0.9, GPL. Julian Faraway. Data for *Linear Models
+  with R* and *Extending the Linear Model with R*. https://cran.r-project.org/package=faraway
+
+MASS::Boston and ISLR2::Boston are different data and are kept in separate folders.
+
 ## Reading package_data back
 
 In these files an EMPTY field means missing, so read them with
