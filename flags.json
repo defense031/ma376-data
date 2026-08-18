@@ -1,0 +1,6727 @@
+[
+  {
+    "key": "carData/Adler",
+    "name": "Adler",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "expectation at 50% minority",
+      "elig-anova": "instruction, 3 groups",
+      "elig-doe": "instruction x expectation, 3x2 balanced"
+    }
+  },
+  {
+    "key": "carData/AMSsurvey",
+    "name": "AMSsurvey",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "sex at 50% minority, 2 binary columns",
+      "elig-anova": "type, 6 groups",
+      "elig-doe": "sex x citizen, 2x2 balanced",
+      "tiny-n": "24 rows"
+    }
+  },
+  {
+    "key": "carData/Angell",
+    "name": "Angell",
+    "source": "carData",
+    "flags": {
+      "elig-anova": "region, 4 groups"
+    }
+  },
+  {
+    "key": "carData/Anscombe",
+    "name": "Anscombe",
+    "source": "carData",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "carData/Arrests",
+    "name": "Arrests",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "colour at 25% minority, 5 binary columns",
+      "elig-two-group": "released, 2 groups",
+      "imbalanced": "sex at 8.5% minority, 443 cases",
+      "year-column": "year"
+    }
+  },
+  {
+    "key": "carData/Baumann",
+    "name": "Baumann",
+    "source": "carData",
+    "flags": {
+      "elig-anova": "group, 3 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 3x spread in scale"
+    }
+  },
+  {
+    "key": "carData/BEPS",
+    "name": "BEPS",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "gender at 47% minority",
+      "elig-anova": "economic.cond.national, 5 groups",
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 18x spread in scale"
+    }
+  },
+  {
+    "key": "carData/Bfox",
+    "name": "Bfox",
+    "source": "carData",
+    "flags": {}
+  },
+  {
+    "key": "carData/Blackmore",
+    "name": "Blackmore",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "group at 38% minority",
+      "elig-two-group": "group, 2 groups",
+      "id-or-text": "subject, 231 levels"
+    }
+  },
+  {
+    "key": "carData/Burt",
+    "name": "Burt",
+    "source": "carData",
+    "flags": {
+      "elig-anova": "class, 3 groups",
+      "tiny-n": "27 rows"
+    }
+  },
+  {
+    "key": "carData/CanPop",
+    "name": "CanPop",
+    "source": "carData",
+    "flags": {
+      "tiny-n": "16 rows",
+      "year-column": "year"
+    }
+  },
+  {
+    "key": "carData/CES11",
+    "name": "CES11",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "gender at 44% minority, 3 binary columns",
+      "elig-anova": "province, 10 groups"
+    }
+  },
+  {
+    "key": "carData/Chile",
+    "name": "Chile",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "sex at 49% minority",
+      "elig-anova": "region, 5 groups",
+      "elig-regression": "4 numeric predictors",
+      "missing-light": "90% of rows complete"
+    }
+  },
+  {
+    "key": "carData/Chirot",
+    "name": "Chirot",
+    "source": "carData",
+    "flags": {
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 159x spread in scale",
+      "thin-per-predictor": "6.4 rows per predictor"
+    }
+  },
+  {
+    "key": "carData/Cowles",
+    "name": "Cowles",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "sex at 45% minority, 2 binary columns",
+      "elig-two-group": "sex, 2 groups"
+    }
+  },
+  {
+    "key": "carData/Davis",
+    "name": "Davis",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "sex at 44% minority",
+      "elig-two-group": "sex, 2 groups",
+      "elig-regression": "4 numeric predictors",
+      "missing-light": "90% of rows complete"
+    }
+  },
+  {
+    "key": "carData/DavisThin",
+    "name": "DavisThin",
+    "source": "carData",
+    "flags": {}
+  },
+  {
+    "key": "carData/Depredations",
+    "name": "Depredations",
+    "source": "carData",
+    "flags": {
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 3x spread in scale"
+    }
+  },
+  {
+    "key": "carData/Duncan",
+    "name": "Duncan",
+    "source": "carData",
+    "flags": {
+      "elig-anova": "type, 3 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "carData/Ericksen",
+    "name": "Ericksen",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "city at 24% minority",
+      "elig-two-group": "city, 2 groups",
+      "elig-regression": "8 numeric predictors",
+      "elig-pca": "8 numeric, 10x spread in scale",
+      "thin-per-predictor": "8.2 rows per predictor"
+    }
+  },
+  {
+    "key": "carData/Florida",
+    "name": "Florida",
+    "source": "carData",
+    "flags": {
+      "elig-regression": "8 numeric predictors",
+      "elig-pca": "8 numeric, 54x spread in scale",
+      "thin-per-predictor": "8.4 rows per predictor"
+    }
+  },
+  {
+    "key": "carData/Freedman",
+    "name": "Freedman",
+    "source": "carData",
+    "flags": {
+      "elig-regression": "4 numeric predictors",
+      "missing-light": "91% of rows complete"
+    }
+  },
+  {
+    "key": "carData/Friendly",
+    "name": "Friendly",
+    "source": "carData",
+    "flags": {
+      "elig-anova": "condition, 3 groups"
+    }
+  },
+  {
+    "key": "carData/Ginzberg",
+    "name": "Ginzberg",
+    "source": "carData",
+    "flags": {
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 1x spread in scale"
+    }
+  },
+  {
+    "key": "carData/Greene",
+    "name": "Greene",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "language at 34% minority, 3 binary columns",
+      "elig-anova": "judge, 10 groups"
+    }
+  },
+  {
+    "key": "carData/GSSvocab",
+    "name": "GSSvocab",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "gender at 43% minority, 2 binary columns",
+      "elig-anova": "ageGroup, 5 groups",
+      "elig-regression": "3 numeric predictors",
+      "imbalanced": "nativeBorn at 8.9% minority, 2556 cases",
+      "missing-light": "95% of rows complete",
+      "year-column": "year"
+    }
+  },
+  {
+    "key": "carData/Guyer",
+    "name": "Guyer",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "condition at 50% minority, 2 binary columns",
+      "elig-two-group": "condition, 2 groups",
+      "elig-doe": "condition x sex, 2x2 balanced",
+      "tiny-n": "20 rows"
+    }
+  },
+  {
+    "key": "carData/Hartnagel",
+    "name": "Hartnagel",
+    "source": "carData",
+    "flags": {
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 4x spread in scale",
+      "thin-per-predictor": "7.6 rows per predictor",
+      "missing-heavy": "89% of rows complete, worst column 11% absent",
+      "year-column": "year"
+    }
+  },
+  {
+    "key": "carData/Highway1",
+    "name": "Highway1",
+    "source": "carData",
+    "flags": {
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 45x spread in scale",
+      "thin-per-predictor": "5.6 rows per predictor"
+    }
+  },
+  {
+    "key": "carData/KosteckiDillon",
+    "name": "KosteckiDillon",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "headache at 36% minority, 2 binary columns",
+      "elig-anova": "hatype, 3 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 35x spread in scale",
+      "imbalanced": "sex at 14.6% minority, 607 cases"
+    }
+  },
+  {
+    "key": "carData/Leinhardt",
+    "name": "Leinhardt",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "oil at 9% minority",
+      "elig-anova": "region, 4 groups",
+      "imbalanced": "oil at 8.6% minority, 9 cases",
+      "missing-light": "96% of rows complete"
+    }
+  },
+  {
+    "key": "carData/LoBD",
+    "name": "LoBD",
+    "source": "carData",
+    "flags": {
+      "elig-regression": "8 numeric predictors",
+      "elig-pca": "8 numeric, 1x spread in scale"
+    }
+  },
+  {
+    "key": "carData/Mandel",
+    "name": "Mandel",
+    "source": "carData",
+    "flags": {
+      "tiny-n": "8 rows"
+    }
+  },
+  {
+    "key": "carData/Migration",
+    "name": "Migration",
+    "source": "carData",
+    "flags": {
+      "elig-anova": "source, 10 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 2025x spread in scale"
+    }
+  },
+  {
+    "key": "carData/Moore",
+    "name": "Moore",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "partner.status at 49% minority",
+      "elig-anova": "fcategory, 3 groups"
+    }
+  },
+  {
+    "key": "carData/MplsDemo",
+    "name": "MplsDemo",
+    "source": "carData",
+    "flags": {
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 1227622x spread in scale",
+      "id-or-text": "neighborhood, 84 levels"
+    }
+  },
+  {
+    "key": "carData/MplsStops",
+    "name": "MplsStops",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "problem at 50% minority, 5 binary columns",
+      "elig-anova": "preRace, 8 groups",
+      "elig-regression": "3 numeric predictors",
+      "imbalanced": "vehicleSearch at 7.1% minority, 2997 cases",
+      "missing-heavy": "35% of rows complete, worst column 65% absent",
+      "date-or-timestamp": "date",
+      "id-or-text": "idNum, 50000 levels"
+    }
+  },
+  {
+    "key": "carData/Mroz",
+    "name": "Mroz",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "lfp at 43% minority, 3 binary columns",
+      "elig-anova": "k5, 4 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "carData/OBrienKaiser",
+    "name": "OBrienKaiser",
+    "source": "carData",
+    "flags": {
+      "elig-anova": "treatment, 3 groups",
+      "elig-pca": "15 numeric, 2x spread in scale",
+      "tiny-n": "16 rows",
+      "wide": "17 columns, 16 rows",
+      "thin-per-predictor": "1.1 rows per predictor"
+    }
+  },
+  {
+    "key": "carData/OBrienKaiserLong",
+    "name": "OBrienKaiserLong",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "gender at 50% minority",
+      "elig-anova": "hour, 5 groups",
+      "elig-regression": "3 numeric predictors",
+      "elig-doe": "phase x hour, 3x5 balanced"
+    }
+  },
+  {
+    "key": "carData/Ornstein",
+    "name": "Ornstein",
+    "source": "carData",
+    "flags": {
+      "elig-anova": "sector, 10 groups"
+    }
+  },
+  {
+    "key": "carData/Pottery",
+    "name": "Pottery",
+    "source": "carData",
+    "flags": {
+      "elig-regression": "4 numeric predictors",
+      "tiny-n": "26 rows",
+      "thin-per-predictor": "6.5 rows per predictor"
+    }
+  },
+  {
+    "key": "carData/Prestige",
+    "name": "Prestige",
+    "source": "carData",
+    "flags": {
+      "elig-anova": "type, 3 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 1556x spread in scale",
+      "missing-light": "96% of rows complete"
+    }
+  },
+  {
+    "key": "carData/Quartet",
+    "name": "Quartet",
+    "source": "carData",
+    "flags": {
+      "tiny-n": "11 rows"
+    }
+  },
+  {
+    "key": "carData/Robey",
+    "name": "Robey",
+    "source": "carData",
+    "flags": {
+      "elig-anova": "region, 4 groups"
+    }
+  },
+  {
+    "key": "carData/Rossi",
+    "name": "Rossi",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "fin at 50% minority, 58 binary columns",
+      "elig-two-group": "arrest, 2 groups",
+      "elig-regression": "4 numeric predictors",
+      "imbalanced": "race at 12.3% minority, 53 cases",
+      "missing-heavy": "75% of rows complete, worst column 25% absent"
+    }
+  },
+  {
+    "key": "carData/Sahlins",
+    "name": "Sahlins",
+    "source": "carData",
+    "flags": {
+      "tiny-n": "20 rows"
+    }
+  },
+  {
+    "key": "carData/Salaries",
+    "name": "Salaries",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "discipline at 46% minority, 2 binary columns",
+      "elig-anova": "rank, 3 groups",
+      "elig-regression": "3 numeric predictors",
+      "imbalanced": "sex at 9.8% minority, 39 cases"
+    }
+  },
+  {
+    "key": "carData/SLID",
+    "name": "SLID",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "sex at 48% minority",
+      "elig-anova": "language, 3 groups",
+      "elig-regression": "3 numeric predictors",
+      "missing-heavy": "54% of rows complete, worst column 44% absent"
+    }
+  },
+  {
+    "key": "carData/Soils",
+    "name": "Soils",
+    "source": "carData",
+    "flags": {
+      "elig-anova": "Depth, 4 groups",
+      "elig-regression": "10 numeric predictors",
+      "elig-pca": "10 numeric, 1208x spread in scale",
+      "elig-doe": "Depth x Block, 4x4 balanced",
+      "thin-per-predictor": "4.8 rows per predictor"
+    }
+  },
+  {
+    "key": "carData/States",
+    "name": "States",
+    "source": "carData",
+    "flags": {
+      "elig-anova": "region, 9 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "carData/TitanicSurvival",
+    "name": "TitanicSurvival",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "survived at 38% minority, 2 binary columns",
+      "elig-anova": "passengerClass, 3 groups",
+      "missing-heavy": "80% of rows complete, worst column 20% absent"
+    }
+  },
+  {
+    "key": "carData/Transact",
+    "name": "Transact",
+    "source": "carData",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "carData/UN",
+    "name": "UN",
+    "source": "carData",
+    "flags": {
+      "elig-anova": "group, 3 groups",
+      "elig-regression": "4 numeric predictors",
+      "missing-light": "91% of rows complete"
+    }
+  },
+  {
+    "key": "carData/UN98",
+    "name": "UN98",
+    "source": "carData",
+    "flags": {
+      "elig-anova": "region, 5 groups",
+      "elig-regression": "12 numeric predictors",
+      "elig-pca": "12 numeric, 5310x spread in scale",
+      "missing-heavy": "19% of rows complete, worst column 63% absent"
+    }
+  },
+  {
+    "key": "carData/USPop",
+    "name": "USPop",
+    "source": "carData",
+    "flags": {
+      "tiny-n": "22 rows",
+      "year-column": "year"
+    }
+  },
+  {
+    "key": "carData/Vocab",
+    "name": "Vocab",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "sex at 44% minority",
+      "elig-two-group": "sex, 2 groups",
+      "year-column": "year"
+    }
+  },
+  {
+    "key": "carData/WeightLoss",
+    "name": "WeightLoss",
+    "source": "carData",
+    "flags": {
+      "elig-anova": "wl3, 4 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 1x spread in scale",
+      "thin-per-predictor": "6.8 rows per predictor"
+    }
+  },
+  {
+    "key": "carData/Wells",
+    "name": "Wells",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "switch at 42% minority, 2 binary columns",
+      "elig-two-group": "switch, 2 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "carData/Womenlf",
+    "name": "Womenlf",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "children at 30% minority",
+      "elig-anova": "region, 5 groups"
+    }
+  },
+  {
+    "key": "carData/Wong",
+    "name": "Wong",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "sex at 21% minority",
+      "elig-two-group": "sex, 2 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 109x spread in scale"
+    }
+  },
+  {
+    "key": "carData/Wool",
+    "name": "Wool",
+    "source": "carData",
+    "flags": {
+      "tiny-n": "27 rows"
+    }
+  },
+  {
+    "key": "carData/WVS",
+    "name": "WVS",
+    "source": "carData",
+    "flags": {
+      "elig-classification": "gender at 49% minority, 3 binary columns",
+      "elig-anova": "country, 4 groups",
+      "imbalanced": "religion at 14.6% minority, 786 cases"
+    }
+  },
+  {
+    "key": "datasets/USArrests",
+    "name": "USArrests",
+    "source": "datasets",
+    "flags": {
+      "elig-regression": "4 numeric predictors",
+      "id-or-text": "state, 50 levels"
+    }
+  },
+  {
+    "key": "faraway/aatemp",
+    "name": "aatemp",
+    "source": "faraway",
+    "flags": {
+      "year-column": "year"
+    }
+  },
+  {
+    "key": "faraway/abrasion",
+    "name": "abrasion",
+    "source": "faraway",
+    "flags": {
+      "elig-doe": "position x material, 4x4 balanced",
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "faraway/aflatoxin",
+    "name": "aflatoxin",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "6 rows"
+    }
+  },
+  {
+    "key": "faraway/africa",
+    "name": "africa",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "numregim, 4 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 345x spread in scale",
+      "thin-per-predictor": "7.8 rows per predictor",
+      "missing-heavy": "77% of rows complete, worst column 13% absent"
+    }
+  },
+  {
+    "key": "faraway/airpass",
+    "name": "airpass",
+    "source": "faraway",
+    "flags": {}
+  },
+  {
+    "key": "faraway/alfalfa",
+    "name": "alfalfa",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "shade, 5 groups",
+      "elig-regression": "3 numeric predictors",
+      "elig-doe": "irrigation x inoculum, 5x5 balanced",
+      "tiny-n": "25 rows",
+      "thin-per-predictor": "8.3 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/amlxray",
+    "name": "amlxray",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "Sex at 50% minority, 6 binary columns",
+      "elig-anova": "CnRay, 4 groups",
+      "imbalanced": "downs at 2.9% minority, 7 cases"
+    }
+  },
+  {
+    "key": "faraway/anaesthetic",
+    "name": "anaesthetic",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "tgrp, 4 groups"
+    }
+  },
+  {
+    "key": "faraway/babyfood",
+    "name": "babyfood",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "6 rows"
+    }
+  },
+  {
+    "key": "faraway/beetle",
+    "name": "beetle",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "10 rows",
+      "thin-per-predictor": "5.0 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/bliss",
+    "name": "bliss",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "5 rows"
+    }
+  },
+  {
+    "key": "faraway/breaking",
+    "name": "breaking",
+    "source": "faraway",
+    "flags": {
+      "elig-doe": "day x supplier, 4x4 balanced",
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "faraway/broccoli",
+    "name": "broccoli",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "box, 4 groups",
+      "elig-doe": "box x cluster, 4x3 balanced"
+    }
+  },
+  {
+    "key": "faraway/butterfat",
+    "name": "butterfat",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "Age at 50% minority",
+      "elig-anova": "Breed, 5 groups",
+      "elig-doe": "Breed x Age, 5x2 balanced"
+    }
+  },
+  {
+    "key": "faraway/cathedral",
+    "name": "cathedral",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "style at 36% minority",
+      "elig-two-group": "style, 2 groups",
+      "tiny-n": "25 rows",
+      "thin-class": "style, only 9 in the smaller class"
+    }
+  },
+  {
+    "key": "faraway/cheddar",
+    "name": "cheddar",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "4 numeric predictors",
+      "thin-per-predictor": "7.5 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/chicago",
+    "name": "chicago",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 51x spread in scale",
+      "thin-per-predictor": "7.8 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/chmiss",
+    "name": "chmiss",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 52x spread in scale",
+      "thin-per-predictor": "9.4 rows per predictor",
+      "missing-heavy": "57% of rows complete, worst column 11% absent"
+    }
+  },
+  {
+    "key": "faraway/choccake",
+    "name": "choccake",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "recipe, 3 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "faraway/chredlin",
+    "name": "chredlin",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "side at 47% minority",
+      "elig-two-group": "side, 2 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 51x spread in scale",
+      "thin-per-predictor": "9.4 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/clot",
+    "name": "clot",
+    "source": "faraway",
+    "flags": {
+      "elig-two-group": "lot, 2 groups",
+      "tiny-n": "18 rows",
+      "thin-per-predictor": "9.0 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/cmob",
+    "name": "cmob",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "class71, 6 groups",
+      "elig-doe": "class71 x class81, 6x6 balanced"
+    }
+  },
+  {
+    "key": "faraway/cns",
+    "name": "cns",
+    "source": "faraway",
+    "flags": {
+      "elig-two-group": "Work, 2 groups",
+      "tiny-n": "16 rows",
+      "thin-per-predictor": "5.3 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/coagulation",
+    "name": "coagulation",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "diet, 4 groups",
+      "tiny-n": "24 rows"
+    }
+  },
+  {
+    "key": "faraway/composite",
+    "name": "composite",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "9 rows"
+    }
+  },
+  {
+    "key": "faraway/cornnit",
+    "name": "cornnit",
+    "source": "faraway",
+    "flags": {}
+  },
+  {
+    "key": "faraway/corrosion",
+    "name": "corrosion",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "13 rows"
+    }
+  },
+  {
+    "key": "faraway/cpd",
+    "name": "cpd",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "20 rows"
+    }
+  },
+  {
+    "key": "faraway/crawl",
+    "name": "crawl",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "12 rows",
+      "thin-per-predictor": "6.0 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/ctsib",
+    "name": "ctsib",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "Sex at 50% minority, 2 binary columns",
+      "elig-anova": "Vision, 3 groups",
+      "elig-regression": "3 numeric predictors",
+      "elig-doe": "Surface x Vision, 2x3 balanced"
+    }
+  },
+  {
+    "key": "faraway/death",
+    "name": "death",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "8 rows"
+    }
+  },
+  {
+    "key": "faraway/debt",
+    "name": "debt",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "bsocacc at 39% minority, 5 binary columns",
+      "elig-anova": "incomegp, 5 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 2x spread in scale",
+      "imbalanced": "singpar at 7.5% minority, 35 cases",
+      "missing-heavy": "66% of rows complete, worst column 13% absent"
+    }
+  },
+  {
+    "key": "faraway/denim",
+    "name": "denim",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "supplier, 5 groups"
+    }
+  },
+  {
+    "key": "faraway/diabetes",
+    "name": "diabetes",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "location at 50% minority, 2 binary columns",
+      "elig-anova": "frame, 3 groups",
+      "elig-regression": "15 numeric predictors",
+      "elig-pca": "15 numeric, 179x spread in scale",
+      "missing-heavy": "32% of rows complete, worst column 65% absent"
+    }
+  },
+  {
+    "key": "faraway/dicentric",
+    "name": "dicentric",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "27 rows"
+    }
+  },
+  {
+    "key": "faraway/divusa",
+    "name": "divusa",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 4x spread in scale",
+      "year-column": "year"
+    }
+  },
+  {
+    "key": "faraway/drugpsy",
+    "name": "drugpsy",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "10 rows"
+    }
+  },
+  {
+    "key": "faraway/dvisits",
+    "name": "dvisits",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "sex at 48% minority, 5 binary columns",
+      "elig-two-group": "sex, 2 groups",
+      "elig-regression": "13 numeric predictors",
+      "elig-pca": "13 numeric, 33x spread in scale",
+      "imbalanced": "freepoor at 4.3% minority, 222 cases"
+    }
+  },
+  {
+    "key": "faraway/eco",
+    "name": "eco",
+    "source": "faraway",
+    "flags": {}
+  },
+  {
+    "key": "faraway/eggprod",
+    "name": "eggprod",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "12 rows"
+    }
+  },
+  {
+    "key": "faraway/eggs",
+    "name": "eggs",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "Technician at 50% minority, 2 binary columns",
+      "elig-anova": "Lab, 6 groups",
+      "elig-doe": "Technician x Sample, 2x2 balanced"
+    }
+  },
+  {
+    "key": "faraway/epilepsy",
+    "name": "epilepsy",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "treat at 47% minority, 2 binary columns",
+      "elig-two-group": "treat, 2 groups"
+    }
+  },
+  {
+    "key": "faraway/esdcomp",
+    "name": "esdcomp",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "residency at 45% minority, 2 binary columns",
+      "elig-two-group": "residency, 2 groups"
+    }
+  },
+  {
+    "key": "faraway/exa",
+    "name": "exa",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "faraway/eyegrade",
+    "name": "eyegrade",
+    "source": "faraway",
+    "flags": {
+      "elig-doe": "right x left, 4x4 balanced",
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "faraway/fat",
+    "name": "fat",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "18 numeric predictors",
+      "elig-pca": "18 numeric, 1544x spread in scale"
+    }
+  },
+  {
+    "key": "faraway/femsmoke",
+    "name": "femsmoke",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "smoker at 50% minority, 2 binary columns",
+      "elig-anova": "age, 7 groups",
+      "elig-doe": "dead x age, 2x7 balanced",
+      "tiny-n": "28 rows"
+    }
+  },
+  {
+    "key": "faraway/fortune",
+    "name": "fortune",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "region, 5 groups",
+      "missing-light": "97% of rows complete"
+    }
+  },
+  {
+    "key": "faraway/fpe",
+    "name": "fpe",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "10 numeric predictors",
+      "elig-pca": "10 numeric, 22x spread in scale",
+      "tiny-n": "24 rows",
+      "thin-per-predictor": "2.4 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/fruitfly",
+    "name": "fruitfly",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "activity, 5 groups"
+    }
+  },
+  {
+    "key": "faraway/gala",
+    "name": "gala",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 61x spread in scale",
+      "thin-per-predictor": "5.0 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/galamiss",
+    "name": "galamiss",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 61x spread in scale",
+      "thin-per-predictor": "5.0 rows per predictor",
+      "missing-heavy": "80% of rows complete, worst column 20% absent"
+    }
+  },
+  {
+    "key": "faraway/gammaray",
+    "name": "gammaray",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "faraway/gavote",
+    "name": "gavote",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "rural at 26% minority, 2 binary columns",
+      "elig-anova": "econ, 3 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 224569x spread in scale",
+      "imbalanced": "atlanta at 9.4% minority, 15 cases"
+    }
+  },
+  {
+    "key": "faraway/globwarm",
+    "name": "globwarm",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "9 numeric predictors",
+      "elig-pca": "9 numeric, 3x spread in scale",
+      "missing-heavy": "14% of rows complete, worst column 86% absent"
+    }
+  },
+  {
+    "key": "faraway/haireye",
+    "name": "haireye",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "eye, 4 groups",
+      "elig-doe": "eye x hair, 4x4 balanced",
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "faraway/happy",
+    "name": "happy",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "sex at 31% minority",
+      "elig-anova": "love, 3 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "faraway/hemoglobin",
+    "name": "hemoglobin",
+    "source": "faraway",
+    "flags": {
+      "elig-two-group": "sex, 2 groups",
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "faraway/hips",
+    "name": "hips",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "side at 50% minority, 2 binary columns",
+      "elig-two-group": "grp, 2 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "faraway/hormone",
+    "name": "hormone",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "orientation at 42% minority",
+      "elig-two-group": "orientation, 2 groups",
+      "tiny-n": "26 rows"
+    }
+  },
+  {
+    "key": "faraway/hprice",
+    "name": "hprice",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "ajwtr at 42% minority, 2 binary columns",
+      "elig-two-group": "rcdum, 2 groups",
+      "elig-regression": "4 numeric predictors",
+      "imbalanced": "rcdum at 13.9% minority, 45 cases"
+    }
+  },
+  {
+    "key": "faraway/hsb",
+    "name": "hsb",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "gender at 46% minority, 2 binary columns",
+      "elig-anova": "race, 4 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 1x spread in scale"
+    }
+  },
+  {
+    "key": "faraway/infmort",
+    "name": "infmort",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "oil at 9% minority",
+      "elig-anova": "region, 4 groups",
+      "imbalanced": "oil at 8.6% minority, 9 cases",
+      "missing-light": "96% of rows complete"
+    }
+  },
+  {
+    "key": "faraway/insulgas",
+    "name": "insulgas",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "Insulate at 41% minority",
+      "elig-two-group": "Insulate, 2 groups"
+    }
+  },
+  {
+    "key": "faraway/irrigation",
+    "name": "irrigation",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "irrigation, 4 groups",
+      "elig-doe": "irrigation x variety, 4x2 balanced",
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "faraway/jsp",
+    "name": "jsp",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "gender at 48% minority",
+      "elig-anova": "class, 4 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 176x spread in scale"
+    }
+  },
+  {
+    "key": "faraway/kanga",
+    "name": "kanga",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "sex at 49% minority",
+      "elig-anova": "species, 3 groups",
+      "elig-regression": "18 numeric predictors",
+      "elig-pca": "18 numeric, 12x spread in scale",
+      "thin-per-predictor": "8.2 rows per predictor",
+      "missing-heavy": "68% of rows complete, worst column 16% absent"
+    }
+  },
+  {
+    "key": "faraway/lawn",
+    "name": "lawn",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "manufact at 50% minority, 2 binary columns",
+      "elig-anova": "machine, 6 groups",
+      "elig-doe": "machine x speed, 6x2 balanced",
+      "tiny-n": "24 rows"
+    }
+  },
+  {
+    "key": "faraway/leafblotch",
+    "name": "leafblotch",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "faraway/leafburn",
+    "name": "leafburn",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "faraway/mammalsleep",
+    "name": "mammalsleep",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "predation, 5 groups",
+      "elig-regression": "10 numeric predictors",
+      "elig-pca": "10 numeric, 645x spread in scale",
+      "thin-per-predictor": "6.2 rows per predictor",
+      "missing-heavy": "68% of rows complete, worst column 23% absent"
+    }
+  },
+  {
+    "key": "faraway/manilius",
+    "name": "manilius",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "group, 3 groups",
+      "tiny-n": "27 rows"
+    }
+  },
+  {
+    "key": "faraway/mba",
+    "name": "mba",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "sex at 31% minority",
+      "elig-anova": "love, 3 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "faraway/meatspec",
+    "name": "meatspec",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "101 numeric predictors",
+      "elig-pca": "101 numeric, 31x spread in scale",
+      "thin-per-predictor": "2.1 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/melanoma",
+    "name": "melanoma",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "12 rows"
+    }
+  },
+  {
+    "key": "faraway/motorins",
+    "name": "motorins",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "Kilometres, 5 groups",
+      "elig-regression": "8 numeric predictors",
+      "elig-pca": "8 numeric, 800939x spread in scale"
+    }
+  },
+  {
+    "key": "faraway/neighbor",
+    "name": "neighbor",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "sex at 36% minority",
+      "missing-light": "92% of rows complete"
+    }
+  },
+  {
+    "key": "faraway/nels88",
+    "name": "nels88",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "sex at 49% minority",
+      "elig-anova": "paredu, 6 groups"
+    }
+  },
+  {
+    "key": "faraway/nepali",
+    "name": "nepali",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "sex at 46% minority",
+      "elig-anova": "died, 5 groups",
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 139881x spread in scale",
+      "imbalanced": "lit at 4.5% minority, 45 cases",
+      "missing-heavy": "88% of rows complete, worst column 12% absent"
+    }
+  },
+  {
+    "key": "faraway/nes96",
+    "name": "nes96",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "vote at 42% minority",
+      "elig-anova": "selfLR, 7 groups",
+      "elig-regression": "3 numeric predictors",
+      "id-or-text": "income, 24 levels"
+    }
+  },
+  {
+    "key": "faraway/newhamp",
+    "name": "newhamp",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "votesys at 37% minority",
+      "elig-two-group": "votesys, 2 groups",
+      "elig-regression": "11 numeric predictors",
+      "elig-pca": "11 numeric, 167570x spread in scale"
+    }
+  },
+  {
+    "key": "faraway/oatvar",
+    "name": "oatvar",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "block, 5 groups"
+    }
+  },
+  {
+    "key": "faraway/odor",
+    "name": "odor",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "15 rows"
+    }
+  },
+  {
+    "key": "faraway/ohio",
+    "name": "ohio",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "smoke at 35% minority, 2 binary columns"
+    }
+  },
+  {
+    "key": "faraway/orings",
+    "name": "orings",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "23 rows"
+    }
+  },
+  {
+    "key": "faraway/ozone",
+    "name": "ozone",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "10 numeric predictors",
+      "elig-pca": "10 numeric, 852x spread in scale"
+    }
+  },
+  {
+    "key": "faraway/parstum",
+    "name": "parstum",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "9 rows"
+    }
+  },
+  {
+    "key": "faraway/peanut",
+    "name": "peanut",
+    "source": "faraway",
+    "flags": {
+      "elig-doe": "flow x size, 2x2 balanced",
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "faraway/penicillin",
+    "name": "penicillin",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "blend, 5 groups",
+      "elig-doe": "treat x blend, 4x5 balanced",
+      "tiny-n": "20 rows"
+    }
+  },
+  {
+    "key": "faraway/phbirths",
+    "name": "phbirths",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "black at 41% minority, 2 binary columns",
+      "elig-two-group": "black, 2 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "faraway/pima",
+    "name": "pima",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "test at 35% minority",
+      "elig-two-group": "test, 2 groups",
+      "elig-regression": "8 numeric predictors",
+      "elig-pca": "8 numeric, 348x spread in scale"
+    }
+  },
+  {
+    "key": "faraway/pipeline",
+    "name": "pipeline",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "faraway/pneumo",
+    "name": "pneumo",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "status, 3 groups",
+      "tiny-n": "24 rows"
+    }
+  },
+  {
+    "key": "faraway/potuse",
+    "name": "potuse",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "sex at 50% minority",
+      "elig-anova": "year.76, 3 groups",
+      "elig-doe": "year.79 x year.80, 3x3 balanced"
+    }
+  },
+  {
+    "key": "faraway/prostate",
+    "name": "prostate",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "svi at 22% minority",
+      "elig-two-group": "svi, 2 groups",
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 57x spread in scale"
+    }
+  },
+  {
+    "key": "faraway/psid",
+    "name": "psid",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "sex at 44% minority",
+      "elig-two-group": "sex, 2 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 5394x spread in scale"
+    }
+  },
+  {
+    "key": "faraway/pulp",
+    "name": "pulp",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "operator, 4 groups",
+      "tiny-n": "20 rows"
+    }
+  },
+  {
+    "key": "faraway/punting",
+    "name": "punting",
+    "source": "faraway",
+    "flags": {
+      "elig-pca": "5 numeric, 6x spread in scale",
+      "tiny-n": "13 rows",
+      "thin-per-predictor": "2.6 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/pvc",
+    "name": "pvc",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "operator, 3 groups"
+    }
+  },
+  {
+    "key": "faraway/pyrimidines",
+    "name": "pyrimidines",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "9 numeric predictors",
+      "elig-pca": "9 numeric, 2x spread in scale",
+      "thin-per-predictor": "8.2 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/rabbit",
+    "name": "rabbit",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "block, 10 groups"
+    }
+  },
+  {
+    "key": "faraway/ratdrink",
+    "name": "ratdrink",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "weeks, 5 groups"
+    }
+  },
+  {
+    "key": "faraway/rats",
+    "name": "rats",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "treat, 4 groups",
+      "elig-doe": "poison x treat, 3x4 balanced"
+    }
+  },
+  {
+    "key": "faraway/resceram",
+    "name": "resceram",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "12 rows"
+    }
+  },
+  {
+    "key": "faraway/salmonella",
+    "name": "salmonella",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "18 rows",
+      "thin-per-predictor": "9.0 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/sat",
+    "name": "sat",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 55x spread in scale",
+      "thin-per-predictor": "8.3 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/savings",
+    "name": "savings",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "faraway/seatpos",
+    "name": "seatpos",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "8 numeric predictors",
+      "elig-pca": "8 numeric, 11x spread in scale",
+      "thin-per-predictor": "4.8 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/seeds",
+    "name": "seeds",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "covered at 50% minority",
+      "elig-two-group": "covered, 2 groups",
+      "missing-light": "98% of rows complete"
+    }
+  },
+  {
+    "key": "faraway/semicond",
+    "name": "semicond",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "ET, 4 groups",
+      "elig-doe": "Wafer x position, 3x4 balanced"
+    }
+  },
+  {
+    "key": "faraway/sexab",
+    "name": "sexab",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "csa at 41% minority"
+    }
+  },
+  {
+    "key": "faraway/sexfun",
+    "name": "sexfun",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "husband, 4 groups",
+      "elig-doe": "husband x wife, 4x4 balanced",
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "faraway/snail",
+    "name": "snail",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "24 rows"
+    }
+  },
+  {
+    "key": "faraway/solder",
+    "name": "solder",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "Solder at 50% minority",
+      "elig-anova": "PadType, 10 groups",
+      "elig-doe": "PadType x Panel, 10x3 balanced"
+    }
+  },
+  {
+    "key": "faraway/solv",
+    "name": "solv",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "group at 50% minority",
+      "elig-two-group": "group, 2 groups",
+      "tiny-n": "24 rows"
+    }
+  },
+  {
+    "key": "faraway/sono",
+    "name": "sono",
+    "source": "faraway",
+    "flags": {
+      "elig-doe": "Horn x Flask, 2x2 balanced",
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "faraway/soybean",
+    "name": "soybean",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "variety, 5 groups",
+      "elig-doe": "variety x replicate, 5x5 balanced",
+      "tiny-n": "25 rows"
+    }
+  },
+  {
+    "key": "faraway/spector",
+    "name": "spector",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "psi at 44% minority, 2 binary columns",
+      "elig-two-group": "grade, 2 groups"
+    }
+  },
+  {
+    "key": "faraway/speedo",
+    "name": "speedo",
+    "source": "faraway",
+    "flags": {
+      "elig-two-group": "h, 2 groups",
+      "elig-doe": "m x c, 2x2 balanced",
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "faraway/star",
+    "name": "star",
+    "source": "faraway",
+    "flags": {}
+  },
+  {
+    "key": "faraway/stat500",
+    "name": "stat500",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "faraway/stepping",
+    "name": "stepping",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "Height at 50% minority",
+      "elig-anova": "Frequency, 3 groups",
+      "elig-regression": "3 numeric predictors",
+      "elig-doe": "Height x Frequency, 2x3 balanced"
+    }
+  },
+  {
+    "key": "faraway/strongx",
+    "name": "strongx",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "10 rows"
+    }
+  },
+  {
+    "key": "faraway/suicide",
+    "name": "suicide",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "sex at 50% minority",
+      "elig-anova": "cause, 6 groups",
+      "elig-doe": "age x sex, 3x2 balanced"
+    }
+  },
+  {
+    "key": "faraway/teengamb",
+    "name": "teengamb",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "sex at 40% minority",
+      "elig-two-group": "sex, 2 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "faraway/toenail",
+    "name": "toenail",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "treatment at 49% minority, 2 binary columns",
+      "elig-two-group": "outcome, 2 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "faraway/troutegg",
+    "name": "troutegg",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "location, 5 groups",
+      "tiny-n": "20 rows"
+    }
+  },
+  {
+    "key": "faraway/truck",
+    "name": "truck",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "B at 50% minority, 5 binary columns",
+      "elig-two-group": "B, 2 groups",
+      "elig-doe": "E x O, 2x2 balanced"
+    }
+  },
+  {
+    "key": "faraway/turtle",
+    "name": "turtle",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "15 rows",
+      "thin-per-predictor": "5.0 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/tvdoctor",
+    "name": "tvdoctor",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "faraway/twins",
+    "name": "twins",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "Social, 3 groups",
+      "tiny-n": "27 rows"
+    }
+  },
+  {
+    "key": "faraway/uncviet",
+    "name": "uncviet",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "sex at 50% minority",
+      "elig-anova": "year, 5 groups",
+      "elig-doe": "sex x year, 2x5 balanced"
+    }
+  },
+  {
+    "key": "faraway/uswages",
+    "name": "uswages",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "so at 31% minority, 7 binary columns",
+      "elig-two-group": "race, 2 groups",
+      "elig-regression": "3 numeric predictors",
+      "imbalanced": "race at 7.8% minority, 156 cases"
+    }
+  },
+  {
+    "key": "faraway/vision",
+    "name": "vision",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "eye at 50% minority",
+      "elig-anova": "power, 4 groups",
+      "elig-doe": "power x eye, 4x2 balanced"
+    }
+  },
+  {
+    "key": "faraway/wafer",
+    "name": "wafer",
+    "source": "faraway",
+    "flags": {
+      "elig-doe": "x3 x x4, 2x2 balanced",
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "faraway/wavesolder",
+    "name": "wavesolder",
+    "source": "faraway",
+    "flags": {
+      "elig-two-group": "prebake, 2 groups",
+      "elig-doe": "agitator x temp, 2x2 balanced",
+      "tiny-n": "16 rows",
+      "thin-per-predictor": "5.3 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/wbca",
+    "name": "wbca",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "Class at 35% minority",
+      "elig-two-group": "Class, 2 groups",
+      "elig-regression": "9 numeric predictors",
+      "elig-pca": "9 numeric, 2x spread in scale"
+    }
+  },
+  {
+    "key": "faraway/wcgs",
+    "name": "wcgs",
+    "source": "faraway",
+    "flags": {
+      "elig-classification": "dibep at 50% minority, 3 binary columns",
+      "elig-anova": "behave, 4 groups",
+      "elig-regression": "8 numeric predictors",
+      "elig-pca": "8 numeric, 264x spread in scale",
+      "imbalanced": "chd at 8.1% minority, 257 cases",
+      "missing-light": "100% of rows complete"
+    }
+  },
+  {
+    "key": "faraway/weldstrength",
+    "name": "weldstrength",
+    "source": "faraway",
+    "flags": {
+      "elig-two-group": "Rods, 2 groups",
+      "elig-doe": "Method x Preheating, 2x2 balanced",
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "faraway/wfat",
+    "name": "wfat",
+    "source": "faraway",
+    "flags": {
+      "elig-regression": "19 numeric predictors",
+      "elig-pca": "19 numeric, 140x spread in scale",
+      "thin-per-predictor": "9.7 rows per predictor"
+    }
+  },
+  {
+    "key": "faraway/wheat",
+    "name": "wheat",
+    "source": "faraway",
+    "flags": {
+      "tiny-n": "13 rows"
+    }
+  },
+  {
+    "key": "faraway/worldcup",
+    "name": "worldcup",
+    "source": "faraway",
+    "flags": {
+      "elig-anova": "Position, 4 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 49x spread in scale",
+      "id-or-text": "Team, 32 levels"
+    }
+  },
+  {
+    "key": "ISLR2/Auto",
+    "name": "Auto",
+    "source": "ISLR2",
+    "flags": {
+      "elig-anova": "origin, 3 groups",
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 498x spread in scale",
+      "id-or-text": "name, 301 levels"
+    }
+  },
+  {
+    "key": "ISLR2/Bikeshare",
+    "name": "Bikeshare",
+    "source": "ISLR2",
+    "flags": {
+      "elig-classification": "workingday at 32% minority",
+      "elig-anova": "season, 4 groups",
+      "elig-regression": "10 numeric predictors",
+      "elig-pca": "10 numeric, 1086x spread in scale",
+      "imbalanced": "holiday at 2.8% minority, 239 cases"
+    }
+  },
+  {
+    "key": "ISLR2/Boston",
+    "name": "Boston",
+    "source": "ISLR2",
+    "flags": {
+      "elig-classification": "chas at 7% minority",
+      "elig-two-group": "chas, 2 groups",
+      "elig-regression": "12 numeric predictors",
+      "elig-pca": "12 numeric, 1454x spread in scale",
+      "imbalanced": "chas at 6.9% minority, 35 cases"
+    }
+  },
+  {
+    "key": "ISLR2/BrainCancer",
+    "name": "BrainCancer",
+    "source": "ISLR2",
+    "flags": {
+      "elig-classification": "sex at 49% minority, 4 binary columns",
+      "elig-anova": "diagnosis, 4 groups",
+      "elig-regression": "3 numeric predictors",
+      "missing-light": "99% of rows complete"
+    }
+  },
+  {
+    "key": "ISLR2/Caravan",
+    "name": "Caravan",
+    "source": "ISLR2",
+    "flags": {
+      "elig-classification": "Purchase at 6% minority",
+      "elig-anova": "MGEMOMV, 5 groups",
+      "elig-regression": "63 numeric predictors",
+      "elig-pca": "63 numeric, 103x spread in scale",
+      "imbalanced": "AWALAND at 2.1% minority, 120 cases"
+    }
+  },
+  {
+    "key": "ISLR2/Carseats",
+    "name": "Carseats",
+    "source": "ISLR2",
+    "flags": {
+      "elig-classification": "US at 36% minority, 2 binary columns",
+      "elig-anova": "ShelveLoc, 3 groups",
+      "elig-regression": "8 numeric predictors",
+      "elig-pca": "8 numeric, 56x spread in scale"
+    }
+  },
+  {
+    "key": "ISLR2/College",
+    "name": "College",
+    "source": "ISLR2",
+    "flags": {
+      "elig-classification": "Private at 27% minority",
+      "elig-two-group": "Private, 2 groups",
+      "elig-regression": "17 numeric predictors",
+      "elig-pca": "17 numeric, 1319x spread in scale"
+    }
+  },
+  {
+    "key": "ISLR2/Credit",
+    "name": "Credit",
+    "source": "ISLR2",
+    "flags": {
+      "elig-classification": "Own at 48% minority, 3 binary columns",
+      "elig-anova": "Region, 3 groups",
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 1683x spread in scale",
+      "imbalanced": "Student at 10.0% minority, 40 cases"
+    }
+  },
+  {
+    "key": "ISLR2/Default",
+    "name": "Default",
+    "source": "ISLR2",
+    "flags": {
+      "elig-classification": "student at 29% minority",
+      "elig-two-group": "default, 2 groups",
+      "imbalanced": "default at 3.3% minority, 333 cases"
+    }
+  },
+  {
+    "key": "ISLR2/Fund",
+    "name": "Fund",
+    "source": "ISLR2",
+    "flags": {
+      "wide": "2000 columns, 50 rows"
+    }
+  },
+  {
+    "key": "ISLR2/Hitters",
+    "name": "Hitters",
+    "source": "ISLR2",
+    "flags": {
+      "elig-classification": "Division at 49% minority, 3 binary columns",
+      "elig-two-group": "League, 2 groups",
+      "elig-regression": "17 numeric predictors",
+      "elig-pca": "17 numeric, 472x spread in scale",
+      "missing-heavy": "82% of rows complete, worst column 18% absent"
+    }
+  },
+  {
+    "key": "ISLR2/NYSE",
+    "name": "NYSE",
+    "source": "ISLR2",
+    "flags": {
+      "elig-classification": "train at 29% minority",
+      "elig-anova": "day_of_week, 5 groups",
+      "elig-regression": "3 numeric predictors",
+      "date-or-timestamp": "date"
+    }
+  },
+  {
+    "key": "ISLR2/OJ",
+    "name": "OJ",
+    "source": "ISLR2",
+    "flags": {
+      "elig-classification": "Purchase at 39% minority, 4 binary columns",
+      "elig-anova": "STORE, 5 groups",
+      "elig-regression": "14 numeric predictors",
+      "elig-pca": "14 numeric, 250x spread in scale",
+      "imbalanced": "SpecialCH at 14.8% minority, 158 cases"
+    }
+  },
+  {
+    "key": "ISLR2/Portfolio",
+    "name": "Portfolio",
+    "source": "ISLR2",
+    "flags": {}
+  },
+  {
+    "key": "ISLR2/Publication",
+    "name": "Publication",
+    "source": "ISLR2",
+    "flags": {
+      "elig-classification": "posres at 40% minority, 4 binary columns",
+      "elig-two-group": "posres, 2 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "ISLR2/Smarket",
+    "name": "Smarket",
+    "source": "ISLR2",
+    "flags": {
+      "elig-classification": "Direction at 48% minority",
+      "elig-two-group": "Direction, 2 groups",
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 3x spread in scale",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "ISLR2/Wage",
+    "name": "Wage",
+    "source": "ISLR2",
+    "flags": {
+      "elig-classification": "jobclass at 49% minority, 3 binary columns",
+      "elig-anova": "maritl, 5 groups",
+      "elig-regression": "3 numeric predictors",
+      "year-column": "year"
+    }
+  },
+  {
+    "key": "ISLR2/Weekly",
+    "name": "Weekly",
+    "source": "ISLR2",
+    "flags": {
+      "elig-classification": "Direction at 44% minority",
+      "elig-two-group": "Direction, 2 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 1x spread in scale",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "MASS/Aids2",
+    "name": "Aids2",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "status at 38% minority",
+      "elig-anova": "T.categ, 8 groups",
+      "elig-regression": "3 numeric predictors",
+      "imbalanced": "sex at 3.1% minority, 89 cases"
+    }
+  },
+  {
+    "key": "MASS/Animals",
+    "name": "Animals",
+    "source": "MASS",
+    "flags": {
+      "tiny-n": "28 rows"
+    }
+  },
+  {
+    "key": "MASS/anorexia",
+    "name": "anorexia",
+    "source": "MASS",
+    "flags": {
+      "elig-anova": "Treat, 3 groups"
+    }
+  },
+  {
+    "key": "MASS/bacteria",
+    "name": "bacteria",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "hilo at 45% minority, 3 binary columns",
+      "elig-anova": "trt, 3 groups",
+      "id-or-text": "ID, 50 levels"
+    }
+  },
+  {
+    "key": "MASS/beav1",
+    "name": "beav1",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "activ at 5% minority",
+      "elig-two-group": "activ, 2 groups",
+      "imbalanced": "activ at 5.3% minority, 6 cases"
+    }
+  },
+  {
+    "key": "MASS/beav2",
+    "name": "beav2",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "activ at 38% minority",
+      "elig-two-group": "activ, 2 groups"
+    }
+  },
+  {
+    "key": "MASS/biopsy",
+    "name": "biopsy",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "class at 34% minority",
+      "elig-two-group": "class, 2 groups",
+      "elig-regression": "10 numeric predictors",
+      "elig-pca": "10 numeric, 359806x spread in scale",
+      "missing-light": "98% of rows complete"
+    }
+  },
+  {
+    "key": "MASS/birthwt",
+    "name": "birthwt",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "smoke at 39% minority, 4 binary columns",
+      "elig-anova": "race, 3 groups",
+      "elig-regression": "4 numeric predictors",
+      "imbalanced": "ht at 6.3% minority, 12 cases"
+    }
+  },
+  {
+    "key": "MASS/Boston",
+    "name": "Boston",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "chas at 7% minority",
+      "elig-two-group": "chas, 2 groups",
+      "elig-regression": "13 numeric predictors",
+      "elig-pca": "13 numeric, 1454x spread in scale",
+      "imbalanced": "chas at 6.9% minority, 35 cases"
+    }
+  },
+  {
+    "key": "MASS/cabbages",
+    "name": "cabbages",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "Cult at 50% minority",
+      "elig-anova": "Date, 3 groups",
+      "elig-doe": "Cult x Date, 2x3 balanced"
+    }
+  },
+  {
+    "key": "MASS/caith",
+    "name": "caith",
+    "source": "MASS",
+    "flags": {
+      "tiny-n": "4 rows",
+      "wide": "5 columns, 4 rows"
+    }
+  },
+  {
+    "key": "MASS/Cars93",
+    "name": "Cars93",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "Origin at 48% minority, 2 binary columns",
+      "elig-anova": "Type, 6 groups",
+      "elig-regression": "18 numeric predictors",
+      "elig-pca": "18 numeric, 575x spread in scale",
+      "thin-per-predictor": "5.2 rows per predictor",
+      "missing-heavy": "88% of rows complete, worst column 12% absent",
+      "id-or-text": "Model, 93 levels"
+    }
+  },
+  {
+    "key": "MASS/cats",
+    "name": "cats",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "Sex at 33% minority",
+      "elig-two-group": "Sex, 2 groups"
+    }
+  },
+  {
+    "key": "MASS/cement",
+    "name": "cement",
+    "source": "MASS",
+    "flags": {
+      "tiny-n": "13 rows",
+      "thin-per-predictor": "3.2 rows per predictor"
+    }
+  },
+  {
+    "key": "MASS/coop",
+    "name": "coop",
+    "source": "MASS",
+    "flags": {
+      "elig-anova": "Spc, 7 groups",
+      "elig-doe": "Spc x Bat, 7x3 balanced"
+    }
+  },
+  {
+    "key": "MASS/cpus",
+    "name": "cpus",
+    "source": "MASS",
+    "flags": {
+      "elig-regression": "8 numeric predictors",
+      "elig-pca": "8 numeric, 1720x spread in scale",
+      "id-or-text": "name, 209 levels"
+    }
+  },
+  {
+    "key": "MASS/crabs",
+    "name": "crabs",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "sp at 50% minority, 2 binary columns",
+      "elig-two-group": "sp, 2 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 3x spread in scale",
+      "elig-doe": "sp x sex, 2x2 balanced"
+    }
+  },
+  {
+    "key": "MASS/Cushings",
+    "name": "Cushings",
+    "source": "MASS",
+    "flags": {
+      "elig-anova": "Type, 4 groups",
+      "tiny-n": "27 rows"
+    }
+  },
+  {
+    "key": "MASS/eagles",
+    "name": "eagles",
+    "source": "MASS",
+    "flags": {
+      "tiny-n": "8 rows"
+    }
+  },
+  {
+    "key": "MASS/epil",
+    "name": "epil",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "trt at 47% minority, 2 binary columns",
+      "elig-anova": "period, 4 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 120x spread in scale"
+    }
+  },
+  {
+    "key": "MASS/farms",
+    "name": "farms",
+    "source": "MASS",
+    "flags": {
+      "tiny-n": "20 rows"
+    }
+  },
+  {
+    "key": "MASS/fgl",
+    "name": "fgl",
+    "source": "MASS",
+    "flags": {
+      "elig-anova": "type, 6 groups",
+      "elig-regression": "9 numeric predictors",
+      "elig-pca": "9 numeric, 31x spread in scale"
+    }
+  },
+  {
+    "key": "MASS/forbes",
+    "name": "forbes",
+    "source": "MASS",
+    "flags": {
+      "tiny-n": "17 rows"
+    }
+  },
+  {
+    "key": "MASS/GAGurine",
+    "name": "GAGurine",
+    "source": "MASS",
+    "flags": {}
+  },
+  {
+    "key": "MASS/gehan",
+    "name": "gehan",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "treat at 50% minority, 2 binary columns",
+      "elig-two-group": "cens, 2 groups"
+    }
+  },
+  {
+    "key": "MASS/genotype",
+    "name": "genotype",
+    "source": "MASS",
+    "flags": {
+      "elig-anova": "Litter, 4 groups"
+    }
+  },
+  {
+    "key": "MASS/geyser",
+    "name": "geyser",
+    "source": "MASS",
+    "flags": {}
+  },
+  {
+    "key": "MASS/gilgais",
+    "name": "gilgais",
+    "source": "MASS",
+    "flags": {
+      "elig-regression": "9 numeric predictors",
+      "elig-pca": "9 numeric, 2687x spread in scale"
+    }
+  },
+  {
+    "key": "MASS/hills",
+    "name": "hills",
+    "source": "MASS",
+    "flags": {}
+  },
+  {
+    "key": "MASS/housing",
+    "name": "housing",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "Cont at 50% minority",
+      "elig-anova": "Type, 4 groups",
+      "elig-doe": "Type x Cont, 4x2 balanced"
+    }
+  },
+  {
+    "key": "MASS/immer",
+    "name": "immer",
+    "source": "MASS",
+    "flags": {
+      "elig-anova": "Loc, 6 groups",
+      "elig-doe": "Loc x Var, 6x5 balanced"
+    }
+  },
+  {
+    "key": "MASS/Insurance",
+    "name": "Insurance",
+    "source": "MASS",
+    "flags": {
+      "elig-anova": "District, 4 groups",
+      "elig-doe": "Group x Age, 4x4 balanced"
+    }
+  },
+  {
+    "key": "MASS/leuk",
+    "name": "leuk",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "ag at 48% minority",
+      "elig-two-group": "ag, 2 groups"
+    }
+  },
+  {
+    "key": "MASS/mammals",
+    "name": "mammals",
+    "source": "MASS",
+    "flags": {}
+  },
+  {
+    "key": "MASS/mcycle",
+    "name": "mcycle",
+    "source": "MASS",
+    "flags": {}
+  },
+  {
+    "key": "MASS/Melanoma",
+    "name": "Melanoma",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "ulcer at 44% minority, 2 binary columns",
+      "elig-anova": "status, 3 groups",
+      "elig-regression": "3 numeric predictors",
+      "year-column": "year"
+    }
+  },
+  {
+    "key": "MASS/menarche",
+    "name": "menarche",
+    "source": "MASS",
+    "flags": {
+      "tiny-n": "25 rows"
+    }
+  },
+  {
+    "key": "MASS/michelson",
+    "name": "michelson",
+    "source": "MASS",
+    "flags": {
+      "elig-anova": "Expt, 5 groups"
+    }
+  },
+  {
+    "key": "MASS/minn38",
+    "name": "minn38",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "sex at 50% minority",
+      "elig-anova": "fol, 7 groups",
+      "elig-doe": "fol x sex, 7x2 balanced"
+    }
+  },
+  {
+    "key": "MASS/motors",
+    "name": "motors",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "cens at 42% minority",
+      "elig-two-group": "cens, 2 groups"
+    }
+  },
+  {
+    "key": "MASS/muscle",
+    "name": "muscle",
+    "source": "MASS",
+    "flags": {
+      "id-or-text": "Strip, 21 levels"
+    }
+  },
+  {
+    "key": "MASS/nlschools",
+    "name": "nlschools",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "COMB at 28% minority",
+      "elig-two-group": "COMB, 2 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 3410x spread in scale"
+    }
+  },
+  {
+    "key": "MASS/npk",
+    "name": "npk",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "N at 50% minority, 3 binary columns",
+      "elig-two-group": "N, 2 groups",
+      "elig-doe": "P x K, 2x2 balanced",
+      "tiny-n": "24 rows"
+    }
+  },
+  {
+    "key": "MASS/npr1",
+    "name": "npr1",
+    "source": "MASS",
+    "flags": {
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "MASS/oats",
+    "name": "oats",
+    "source": "MASS",
+    "flags": {
+      "elig-anova": "B, 6 groups",
+      "elig-doe": "V x N, 3x4 balanced"
+    }
+  },
+  {
+    "key": "MASS/OME",
+    "name": "OME",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "Noise at 50% minority",
+      "elig-anova": "OME, 3 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "MASS/painters",
+    "name": "painters",
+    "source": "MASS",
+    "flags": {
+      "elig-anova": "School, 8 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "MASS/petrol",
+    "name": "petrol",
+    "source": "MASS",
+    "flags": {
+      "elig-regression": "4 numeric predictors",
+      "thin-per-predictor": "8.0 rows per predictor"
+    }
+  },
+  {
+    "key": "MASS/Pima.te",
+    "name": "Pima.te",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "type at 33% minority",
+      "elig-two-group": "type, 2 groups",
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 84x spread in scale"
+    }
+  },
+  {
+    "key": "MASS/Pima.tr",
+    "name": "Pima.tr",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "type at 34% minority",
+      "elig-two-group": "type, 2 groups",
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 103x spread in scale"
+    }
+  },
+  {
+    "key": "MASS/Pima.tr2",
+    "name": "Pima.tr2",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "type at 35% minority",
+      "elig-two-group": "type, 2 groups",
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 102x spread in scale",
+      "missing-heavy": "67% of rows complete, worst column 33% absent"
+    }
+  },
+  {
+    "key": "MASS/quine",
+    "name": "quine",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "Eth at 47% minority, 3 binary columns",
+      "elig-anova": "Age, 4 groups"
+    }
+  },
+  {
+    "key": "MASS/Rabbit",
+    "name": "Rabbit",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "Treatment at 50% minority",
+      "elig-anova": "Run, 10 groups",
+      "elig-doe": "Treatment x Animal, 2x5 balanced"
+    }
+  },
+  {
+    "key": "MASS/road",
+    "name": "road",
+    "source": "MASS",
+    "flags": {
+      "elig-regression": "3 numeric predictors",
+      "tiny-n": "26 rows",
+      "thin-per-predictor": "8.7 rows per predictor"
+    }
+  },
+  {
+    "key": "MASS/rotifer",
+    "name": "rotifer",
+    "source": "MASS",
+    "flags": {
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 6172x spread in scale",
+      "tiny-n": "20 rows",
+      "thin-per-predictor": "4.0 rows per predictor"
+    }
+  },
+  {
+    "key": "MASS/Rubber",
+    "name": "Rubber",
+    "source": "MASS",
+    "flags": {}
+  },
+  {
+    "key": "MASS/ships",
+    "name": "ships",
+    "source": "MASS",
+    "flags": {
+      "elig-anova": "type, 5 groups"
+    }
+  },
+  {
+    "key": "MASS/shuttle",
+    "name": "shuttle",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "stability at 50% minority, 5 binary columns",
+      "elig-doe": "magn x vis, 4x2 balanced"
+    }
+  },
+  {
+    "key": "MASS/Sitka",
+    "name": "Sitka",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "treat at 32% minority",
+      "elig-two-group": "treat, 2 groups"
+    }
+  },
+  {
+    "key": "MASS/Sitka89",
+    "name": "Sitka89",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "treat at 32% minority",
+      "elig-two-group": "treat, 2 groups"
+    }
+  },
+  {
+    "key": "MASS/Skye",
+    "name": "Skye",
+    "source": "MASS",
+    "flags": {
+      "elig-regression": "3 numeric predictors",
+      "tiny-n": "23 rows",
+      "thin-per-predictor": "7.7 rows per predictor"
+    }
+  },
+  {
+    "key": "MASS/snails",
+    "name": "snails",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "Species at 50% minority",
+      "elig-anova": "Exposure, 4 groups",
+      "elig-doe": "Species x Exposure, 2x4 balanced"
+    }
+  },
+  {
+    "key": "MASS/steam",
+    "name": "steam",
+    "source": "MASS",
+    "flags": {
+      "tiny-n": "14 rows"
+    }
+  },
+  {
+    "key": "MASS/stormer",
+    "name": "stormer",
+    "source": "MASS",
+    "flags": {
+      "tiny-n": "23 rows"
+    }
+  },
+  {
+    "key": "MASS/survey",
+    "name": "survey",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "Sex at 50% minority, 3 binary columns",
+      "elig-anova": "Smoke, 4 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 6x spread in scale",
+      "imbalanced": "W.Hnd at 7.6% minority, 18 cases",
+      "missing-heavy": "71% of rows complete, worst column 19% absent"
+    }
+  },
+  {
+    "key": "MASS/synth.te",
+    "name": "synth.te",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "yc at 50% minority"
+    }
+  },
+  {
+    "key": "MASS/synth.tr",
+    "name": "synth.tr",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "yc at 50% minority"
+    }
+  },
+  {
+    "key": "MASS/topo",
+    "name": "topo",
+    "source": "MASS",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "MASS/Traffic",
+    "name": "Traffic",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "limit at 38% minority",
+      "elig-two-group": "limit, 2 groups"
+    }
+  },
+  {
+    "key": "MASS/UScereal",
+    "name": "UScereal",
+    "source": "MASS",
+    "flags": {
+      "elig-anova": "mfr, 6 groups",
+      "elig-regression": "8 numeric predictors",
+      "elig-pca": "8 numeric, 109x spread in scale",
+      "thin-per-predictor": "8.1 rows per predictor"
+    }
+  },
+  {
+    "key": "MASS/UScrime",
+    "name": "UScrime",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "So at 34% minority",
+      "elig-two-group": "So, 2 groups",
+      "elig-regression": "14 numeric predictors",
+      "elig-pca": "14 numeric, 55x spread in scale",
+      "thin-per-predictor": "3.4 rows per predictor"
+    }
+  },
+  {
+    "key": "MASS/VA",
+    "name": "VA",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "treat at 50% minority, 2 binary columns",
+      "elig-anova": "cell, 4 groups",
+      "elig-regression": "4 numeric predictors",
+      "imbalanced": "status at 6.6% minority, 9 cases"
+    }
+  },
+  {
+    "key": "MASS/waders",
+    "name": "waders",
+    "source": "MASS",
+    "flags": {
+      "elig-pca": "13 numeric, 41x spread in scale",
+      "tiny-n": "15 rows",
+      "wide": "19 columns, 15 rows",
+      "thin-per-predictor": "1.2 rows per predictor"
+    }
+  },
+  {
+    "key": "MASS/whiteside",
+    "name": "whiteside",
+    "source": "MASS",
+    "flags": {
+      "elig-classification": "Insul at 46% minority",
+      "elig-two-group": "Insul, 2 groups"
+    }
+  },
+  {
+    "key": "MASS/wtloss",
+    "name": "wtloss",
+    "source": "MASS",
+    "flags": {}
+  },
+  {
+    "key": "project/absenteeism-courier",
+    "name": "absenteeism-courier",
+    "source": "project",
+    "flags": {
+      "elig-classification": "Social drinker at 43% minority, 3 binary columns",
+      "elig-anova": "Son, 5 groups",
+      "elig-regression": "16 numeric predictors",
+      "elig-pca": "16 numeric, 61x spread in scale",
+      "imbalanced": "Disciplinary failure at 5.4% minority, 40 cases",
+      "id-or-text": "icd10_chapter_title, 22 levels"
+    }
+  },
+  {
+    "key": "project/cfpb-complaints",
+    "name": "cfpb-complaints",
+    "source": "project",
+    "flags": {
+      "elig-anova": "company_response, 5 groups",
+      "missing-heavy": "21% of rows complete, worst column 73% absent",
+      "date-or-timestamp": "date_received, date_sent",
+      "id-or-text": "zip_code, 730 levels"
+    }
+  },
+  {
+    "key": "project/college-scorecard",
+    "name": "college-scorecard",
+    "source": "project",
+    "flags": {
+      "elig-classification": "open_admissions at 26% minority, 2 binary columns",
+      "elig-anova": "region, 10 groups",
+      "elig-regression": "28 numeric predictors",
+      "elig-pca": "28 numeric, 305264x spread in scale",
+      "imbalanced": "hbcu at 3.4% minority, 90 cases",
+      "missing-heavy": "27% of rows complete, worst column 64% absent",
+      "id-or-text": "institution, 2645 levels"
+    }
+  },
+  {
+    "key": "project/communities-crime",
+    "name": "communities-crime",
+    "source": "project",
+    "flags": {
+      "elig-regression": "125 numeric predictors",
+      "elig-pca": "125 numeric, 290170x spread in scale",
+      "missing-heavy": "6% of rows complete, worst column 84% absent",
+      "id-or-text": "community_name, 1828 levels"
+    }
+  },
+  {
+    "key": "project/concrete-strength",
+    "name": "concrete-strength",
+    "source": "project",
+    "flags": {
+      "elig-regression": "11 numeric predictors",
+      "elig-pca": "11 numeric, 17x spread in scale"
+    }
+  },
+  {
+    "key": "project/energy-efficiency",
+    "name": "energy-efficiency",
+    "source": "project",
+    "flags": {
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 833x spread in scale"
+    }
+  },
+  {
+    "key": "project/flights-ontime",
+    "name": "flights-ontime",
+    "source": "project",
+    "flags": {
+      "elig-classification": "arr_del15 at 21% minority, 2 binary columns",
+      "elig-anova": "cancellation_code, 4 groups",
+      "elig-regression": "25 numeric predictors",
+      "elig-pca": "25 numeric, 829x spread in scale",
+      "missing-heavy": "21% of rows complete, worst column 79% absent",
+      "date-or-timestamp": "flight_date",
+      "id-or-text": "tail_number, 4663 levels"
+    }
+  },
+  {
+    "key": "project/forest-fires",
+    "name": "forest-fires",
+    "source": "project",
+    "flags": {
+      "elig-anova": "day, 7 groups",
+      "elig-regression": "20 numeric predictors",
+      "elig-pca": "20 numeric, 17081x spread in scale"
+    }
+  },
+  {
+    "key": "project/gapminder-development",
+    "name": "gapminder-development",
+    "source": "project",
+    "flags": {
+      "elig-classification": "barrolee_covered at 15% minority",
+      "elig-anova": "continent, 5 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 47x spread in scale",
+      "imbalanced": "vdem_covered at 1.4% minority, 24 cases",
+      "missing-heavy": "75% of rows complete, worst column 15% absent",
+      "year-column": "year, bl_match_year",
+      "id-or-text": "country, 142 levels"
+    }
+  },
+  {
+    "key": "project/garment-productivity",
+    "name": "garment-productivity",
+    "source": "project",
+    "flags": {
+      "elig-anova": "day, 6 groups",
+      "elig-regression": "15 numeric predictors",
+      "elig-pca": "15 numeric, 34210x spread in scale",
+      "missing-heavy": "58% of rows complete, worst column 42% absent",
+      "date-or-timestamp": "date"
+    }
+  },
+  {
+    "key": "project/ionosphere-radar",
+    "name": "ionosphere-radar",
+    "source": "project",
+    "flags": {
+      "elig-classification": "class_good_bad at 36% minority, 2 binary columns",
+      "elig-two-group": "a1, 2 groups",
+      "elig-regression": "32 numeric predictors",
+      "elig-pca": "32 numeric, 1x spread in scale",
+      "imbalanced": "a1 at 10.8% minority, 38 cases"
+    }
+  },
+  {
+    "key": "project/movies-boxoffice",
+    "name": "movies-boxoffice",
+    "source": "project",
+    "flags": {
+      "elig-regression": "8 numeric predictors",
+      "elig-pca": "8 numeric, 119738519x spread in scale",
+      "missing-heavy": "7% of rows complete, worst column 82% absent",
+      "id-or-text": "Title, 3177 levels"
+    }
+  },
+  {
+    "key": "project/mta-subway-ridership",
+    "name": "mta-subway-ridership",
+    "source": "project",
+    "flags": {
+      "elig-classification": "complex_ada_accessible at 31% minority, 2 binary columns",
+      "elig-anova": "complex_structure, 5 groups",
+      "elig-regression": "16 numeric predictors",
+      "elig-pca": "16 numeric, 410990001x spread in scale",
+      "missing-light": "96% of rows complete",
+      "year-column": "year",
+      "id-or-text": "station_complex, 462 levels"
+    }
+  },
+  {
+    "key": "project/ny-dmv-crashes",
+    "name": "ny-dmv-crashes",
+    "source": "project",
+    "flags": {
+      "elig-anova": "weather_conditions, 8 groups",
+      "elig-regression": "8 numeric predictors",
+      "elig-pca": "8 numeric, 9349187x spread in scale",
+      "imbalanced": "police_report at 3.3% minority, 399 cases",
+      "date-or-timestamp": "time, date",
+      "id-or-text": "dot_reference_marker_location, 3793 levels"
+    }
+  },
+  {
+    "key": "project/nyc-collisions",
+    "name": "nyc-collisions",
+    "source": "project",
+    "flags": {
+      "elig-anova": "borough, 6 groups",
+      "elig-regression": "16 numeric predictors",
+      "elig-pca": "16 numeric, 13315x spread in scale",
+      "missing-heavy": "60% of rows complete, worst column 34% absent",
+      "date-or-timestamp": "crash_time",
+      "id-or-text": "location, 24800 levels"
+    }
+  },
+  {
+    "key": "project/online-retail",
+    "name": "online-retail",
+    "source": "project",
+    "flags": {
+      "elig-two-group": "uk_holiday_name, 2 groups",
+      "elig-regression": "3 numeric predictors",
+      "imbalanced": "uk_holiday_name at 2.4% minority, 1184 cases",
+      "missing-heavy": "64% of rows complete, worst column 36% absent",
+      "date-or-timestamp": "InvoiceDate",
+      "id-or-text": "StockCode, 2879 levels"
+    }
+  },
+  {
+    "key": "project/parkinsons-telemonitoring",
+    "name": "parkinsons-telemonitoring",
+    "source": "project",
+    "flags": {
+      "elig-classification": "sex at 32% minority",
+      "elig-two-group": "sex, 2 groups",
+      "elig-regression": "21 numeric predictors",
+      "elig-pca": "21 numeric, 1485287x spread in scale"
+    }
+  },
+  {
+    "key": "project/storm-events",
+    "name": "storm-events",
+    "source": "project",
+    "flags": {
+      "elig-classification": "cz_type at 46% minority",
+      "elig-anova": "magnitude_type, 5 groups",
+      "elig-regression": "13 numeric predictors",
+      "elig-pca": "13 numeric, 210544794x spread in scale",
+      "missing-heavy": "28% of rows complete, worst column 49% absent",
+      "year-column": "year",
+      "id-or-text": "state, 65 levels"
+    }
+  },
+  {
+    "key": "project/superconductivity",
+    "name": "superconductivity",
+    "source": "project",
+    "flags": {
+      "elig-regression": "159 numeric predictors",
+      "elig-pca": "159 numeric, 130251x spread in scale",
+      "id-or-text": "formula, 2283 levels"
+    }
+  },
+  {
+    "key": "project/westpoint-assessment-rolls",
+    "name": "westpoint-assessment-rolls",
+    "source": "project",
+    "flags": {
+      "elig-anova": "school_district_name, 8 groups",
+      "elig-regression": "16 numeric predictors",
+      "elig-pca": "16 numeric, 316217x spread in scale",
+      "missing-heavy": "88% of rows complete, worst column 12% absent",
+      "id-or-text": "print_key_code, 11353 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/case0101",
+    "name": "case0101",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Treatment at 49% minority",
+      "elig-two-group": "Treatment, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/case0102",
+    "name": "case0102",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Sex at 34% minority",
+      "elig-two-group": "Sex, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/case0201",
+    "name": "case0201",
+    "source": "Sleuth3",
+    "flags": {}
+  },
+  {
+    "key": "Sleuth3/case0202",
+    "name": "case0202",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "15 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/case0301",
+    "name": "case0301",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Treatment at 50% minority",
+      "elig-two-group": "Treatment, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/case0302",
+    "name": "case0302",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Veteran at 13% minority",
+      "elig-two-group": "Veteran, 2 groups",
+      "imbalanced": "Veteran at 13.1% minority, 97 cases"
+    }
+  },
+  {
+    "key": "Sleuth3/case0401",
+    "name": "case0401",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Launch at 17% minority",
+      "tiny-n": "24 rows",
+      "thin-class": "Launch, only 4 in the smaller class"
+    }
+  },
+  {
+    "key": "Sleuth3/case0402",
+    "name": "case0402",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Treatment at 50% minority, 2 binary columns",
+      "elig-two-group": "Treatment, 2 groups",
+      "tiny-n": "28 rows",
+      "thin-class": "Censored, only 5 in the smaller class"
+    }
+  },
+  {
+    "key": "Sleuth3/case0501",
+    "name": "case0501",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Diet, 6 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/case0502",
+    "name": "case0502",
+    "source": "Sleuth3",
+    "flags": {}
+  },
+  {
+    "key": "Sleuth3/case0601",
+    "name": "case0601",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Handicap, 5 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/case0602",
+    "name": "case0602",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Pair, 6 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/case0701",
+    "name": "case0701",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "24 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/case0702",
+    "name": "case0702",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "10 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/case0801",
+    "name": "case0801",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "7 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/case0802",
+    "name": "case0802",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Group, 7 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/case0901",
+    "name": "case0901",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Time at 50% minority",
+      "elig-two-group": "Time, 2 groups",
+      "tiny-n": "24 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/case0902",
+    "name": "case0902",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "4 numeric predictors",
+      "id-or-text": "Species, 96 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/case1001",
+    "name": "case1001",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "7 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/case1002",
+    "name": "case1002",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Type, 3 groups",
+      "tiny-n": "20 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/case1101",
+    "name": "case1101",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Sex at 44% minority, 2 binary columns",
+      "elig-two-group": "Sex, 2 groups",
+      "thin-class": "Alcohol, only 8 in the smaller class"
+    }
+  },
+  {
+    "key": "Sleuth3/case1102",
+    "name": "case1102",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Treatment at 50% minority, 2 binary columns",
+      "elig-two-group": "Treatment, 2 groups",
+      "thin-class": "Sex, only 8 in the smaller class"
+    }
+  },
+  {
+    "key": "Sleuth3/case1201",
+    "name": "case1201",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 101x spread in scale",
+      "thin-per-predictor": "8.3 rows per predictor",
+      "id-or-text": "State, 50 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/case1202",
+    "name": "case1202",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Sex at 34% minority",
+      "elig-two-group": "Sex, 2 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 784x spread in scale"
+    }
+  },
+  {
+    "key": "Sleuth3/case1301",
+    "name": "case1301",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Block, 8 groups",
+      "elig-doe": "Block x Treat, 8x6 balanced"
+    }
+  },
+  {
+    "key": "Sleuth3/case1302",
+    "name": "case1302",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Treat at 34% minority",
+      "elig-two-group": "Treat, 2 groups",
+      "tiny-n": "29 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/case1401",
+    "name": "case1401",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Sign, 10 groups",
+      "elig-doe": "Chimp x Sign, 4x10 balanced"
+    }
+  },
+  {
+    "key": "Sleuth3/case1402",
+    "name": "case1402",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Stress at 50% minority",
+      "elig-two-group": "Stress, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/case1501",
+    "name": "case1501",
+    "source": "Sleuth3",
+    "flags": {}
+  },
+  {
+    "key": "Sleuth3/case1502",
+    "name": "case1502",
+    "source": "Sleuth3",
+    "flags": {
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Sleuth3/case1601",
+    "name": "case1601",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-two-group": "Treatment, 2 groups",
+      "elig-pca": "5 numeric, 1x spread in scale",
+      "tiny-n": "18 rows",
+      "thin-per-predictor": "3.6 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/case1602",
+    "name": "case1602",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Order at 50% minority",
+      "elig-two-group": "Order, 2 groups",
+      "elig-regression": "3 numeric predictors",
+      "tiny-n": "20 rows",
+      "thin-per-predictor": "6.7 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/case1701",
+    "name": "case1701",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Config at 48% minority",
+      "elig-anova": "Material, 4 groups",
+      "elig-regression": "11 numeric predictors",
+      "elig-pca": "11 numeric, 2x spread in scale",
+      "thin-per-predictor": "4.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/case1702",
+    "name": "case1702",
+    "source": "Sleuth3",
+    "flags": {}
+  },
+  {
+    "key": "Sleuth3/case1801",
+    "name": "case1801",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "2 rows",
+      "wide": "3 columns, 2 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/case1802",
+    "name": "case1802",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "2 rows",
+      "wide": "3 columns, 2 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/case1803",
+    "name": "case1803",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "2 rows",
+      "wide": "3 columns, 2 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/case1901",
+    "name": "case1901",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "2 rows",
+      "wide": "3 columns, 2 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/case1902",
+    "name": "case1902",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "12 rows",
+      "thin-per-predictor": "4.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/case2001",
+    "name": "case2001",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Status at 44% minority, 2 binary columns",
+      "elig-two-group": "Sex, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/case2002",
+    "name": "case2002",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "BK at 46% minority, 4 binary columns",
+      "elig-two-group": "LC, 2 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Sleuth3/case2101",
+    "name": "case2101",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "18 rows",
+      "thin-per-predictor": "6.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/case2102",
+    "name": "case2102",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "14 rows",
+      "thin-per-predictor": "4.7 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/case2201",
+    "name": "case2201",
+    "source": "Sleuth3",
+    "flags": {}
+  },
+  {
+    "key": "Sleuth3/case2202",
+    "name": "case2202",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0112",
+    "name": "ex0112",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "14 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0116",
+    "name": "ex0116",
+    "source": "Sleuth3",
+    "flags": {
+      "id-or-text": "Country, 228 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0125",
+    "name": "ex0125",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Group at 49% minority",
+      "elig-two-group": "Group, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0126",
+    "name": "ex0126",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 8x spread in scale",
+      "missing-heavy": "77% of rows complete, worst column 13% absent",
+      "id-or-text": "Representative, 491 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0127",
+    "name": "ex0127",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Party, 3 groups",
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 14x spread in scale",
+      "missing-heavy": "79% of rows complete, worst column 11% absent",
+      "id-or-text": "Senator, 111 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0211",
+    "name": "ex0211",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Group at 48% minority",
+      "elig-two-group": "Group, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0218",
+    "name": "ex0218",
+    "source": "Sleuth3",
+    "flags": {}
+  },
+  {
+    "key": "Sleuth3/ex0221",
+    "name": "ex0221",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Status at 41% minority",
+      "elig-two-group": "Status, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0222",
+    "name": "ex0222",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Gender at 49% minority",
+      "elig-two-group": "Gender, 2 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 9x spread in scale"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0223",
+    "name": "ex0223",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "SpeedLimit at 37% minority",
+      "elig-two-group": "SpeedLimit, 2 groups",
+      "id-or-text": "State, 51 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0321",
+    "name": "ex0321",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Censored at 14% minority",
+      "elig-two-group": "Censored, 2 groups",
+      "imbalanced": "Censored at 14.1% minority, 32 cases"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0323",
+    "name": "ex0323",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "SunspotActivity at 43% minority",
+      "elig-two-group": "SunspotActivity, 2 groups",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0327",
+    "name": "ex0327",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "BeeType at 26% minority",
+      "elig-two-group": "BeeType, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0330",
+    "name": "ex0330",
+    "source": "Sleuth3",
+    "flags": {}
+  },
+  {
+    "key": "Sleuth3/ex0331",
+    "name": "ex0331",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Educ at 48% minority",
+      "elig-two-group": "Educ, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0332",
+    "name": "ex0332",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Type at 50% minority",
+      "id-or-text": "College, 50 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0333",
+    "name": "ex0333",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "LitterSize at 47% minority",
+      "elig-two-group": "LitterSize, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0428",
+    "name": "ex0428",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "15 rows",
+      "thin-per-predictor": "7.5 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0429",
+    "name": "ex0429",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0430",
+    "name": "ex0430",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "13 rows",
+      "thin-per-predictor": "6.5 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0431",
+    "name": "ex0431",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Group at 41% minority, 2 binary columns",
+      "elig-two-group": "Group, 2 groups",
+      "imbalanced": "Censor at 5.2% minority, 3 cases"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0432",
+    "name": "ex0432",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "15 rows",
+      "thin-per-predictor": "7.5 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0518",
+    "name": "ex0518",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "TrtDayGroup, 10 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0523",
+    "name": "ex0523",
+    "source": "Sleuth3",
+    "flags": {}
+  },
+  {
+    "key": "Sleuth3/ex0524",
+    "name": "ex0524",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "IQquartile, 4 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0525",
+    "name": "ex0525",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Educ, 5 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0623",
+    "name": "ex0623",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Group, 3 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0624",
+    "name": "ex0624",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Orientation at 46% minority, 3 binary columns",
+      "elig-two-group": "Sex, 2 groups",
+      "imbalanced": "Sex at 14.6% minority, 6 cases"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0721",
+    "name": "ex0721",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "10 rows",
+      "missing-light": "90% of rows complete"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0722",
+    "name": "ex0722",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Species, 3 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0724",
+    "name": "ex0724",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "4 numeric predictors",
+      "missing-heavy": "47% of rows complete, worst column 53% absent",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0725",
+    "name": "ex0725",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "10 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0726",
+    "name": "ex0726",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Gender at 49% minority",
+      "elig-two-group": "Gender, 2 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0727",
+    "name": "ex0727",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "21 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0728",
+    "name": "ex0728",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "15 rows",
+      "thin-per-predictor": "7.5 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0729",
+    "name": "ex0729",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "6 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0730",
+    "name": "ex0730",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "6 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0816",
+    "name": "ex0816",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "12 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0817",
+    "name": "ex0817",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "15 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0820",
+    "name": "ex0820",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "District, 7 groups",
+      "tiny-n": "22 rows",
+      "imbalanced": "Disputed at 4.5% minority, 1 cases"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0822",
+    "name": "ex0822",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0823",
+    "name": "ex0823",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "18 rows",
+      "thin-per-predictor": "9.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0824",
+    "name": "ex0824",
+    "source": "Sleuth3",
+    "flags": {}
+  },
+  {
+    "key": "Sleuth3/ex0825",
+    "name": "ex0825",
+    "source": "Sleuth3",
+    "flags": {
+      "id-or-text": "County, 67 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0826",
+    "name": "ex0826",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "3 numeric predictors",
+      "id-or-text": "Species, 95 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0828",
+    "name": "ex0828",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0829",
+    "name": "ex0829",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "5 rows",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0914",
+    "name": "ex0914",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "4 numeric predictors",
+      "thin-per-predictor": "9.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0915",
+    "name": "ex0915",
+    "source": "Sleuth3",
+    "flags": {
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0918",
+    "name": "ex0918",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Continent at 48% minority",
+      "elig-two-group": "Continent, 2 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 2739x spread in scale",
+      "tiny-n": "21 rows",
+      "thin-per-predictor": "3.5 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0920",
+    "name": "ex0920",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Conditions at 18% minority",
+      "elig-two-group": "Conditions, 2 groups",
+      "elig-regression": "4 numeric predictors",
+      "year-column": "Year",
+      "id-or-text": "Winner, 116 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0921",
+    "name": "ex0921",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "19 rows",
+      "thin-per-predictor": "9.5 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex0923",
+    "name": "ex0923",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Gender at 49% minority",
+      "elig-two-group": "Gender, 2 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1014",
+    "name": "ex1014",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "3 numeric predictors",
+      "tiny-n": "25 rows",
+      "thin-per-predictor": "8.3 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1026",
+    "name": "ex1026",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-two-group": "Surface, 2 groups",
+      "tiny-n": "17 rows",
+      "thin-per-predictor": "8.5 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1027",
+    "name": "ex1027",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Size at 45% minority, 2 binary columns",
+      "elig-two-group": "Size, 2 groups",
+      "id-or-text": "Species, 62 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1028",
+    "name": "ex1028",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "WestAfrica at 38% minority",
+      "elig-anova": "ElNino, 3 groups",
+      "elig-regression": "3 numeric predictors",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1029",
+    "name": "ex1029",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "MetropolitanStatus at 26% minority, 2 binary columns",
+      "elig-anova": "Region, 4 groups",
+      "elig-regression": "3 numeric predictors",
+      "imbalanced": "Race at 7.8% minority, 1978 cases"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1030",
+    "name": "ex1030",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Race at 8% minority",
+      "elig-anova": "Region, 4 groups",
+      "elig-regression": "3 numeric predictors",
+      "imbalanced": "Race at 8.2% minority, 407 cases"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1031",
+    "name": "ex1031",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Group, 6 groups",
+      "id-or-text": "CommonName, 442 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1033",
+    "name": "ex1033",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 14784x spread in scale"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1111",
+    "name": "ex1111",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "17 rows",
+      "thin-per-predictor": "8.5 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1120",
+    "name": "ex1120",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "18 rows",
+      "thin-per-predictor": "9.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1122",
+    "name": "ex1122",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "11 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1123",
+    "name": "ex1123",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 75x spread in scale",
+      "id-or-text": "City, 60 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1124",
+    "name": "ex1124",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Type, 3 groups",
+      "id-or-text": "Species, 64 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1125",
+    "name": "ex1125",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Bivalve at 14% minority",
+      "elig-two-group": "Bivalve, 2 groups",
+      "tiny-n": "22 rows",
+      "imbalanced": "Bivalve at 13.6% minority, 3 cases",
+      "id-or-text": "Species, 22 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1217",
+    "name": "ex1217",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "14 numeric predictors",
+      "elig-pca": "14 numeric, 680x spread in scale",
+      "thin-per-predictor": "4.3 rows per predictor",
+      "id-or-text": "CITY, 60 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1220",
+    "name": "ex1220",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 61x spread in scale",
+      "thin-per-predictor": "4.3 rows per predictor",
+      "id-or-text": "Island, 30 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1221",
+    "name": "ex1221",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Rating, 5 groups",
+      "elig-regression": "9 numeric predictors",
+      "elig-pca": "9 numeric, 7x spread in scale",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1222",
+    "name": "ex1222",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 32x spread in scale",
+      "id-or-text": "County, 67 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1223",
+    "name": "ex1223",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Gender at 49% minority, 4 binary columns",
+      "elig-anova": "Esteem1, 4 groups",
+      "elig-regression": "16 numeric predictors",
+      "elig-pca": "16 numeric, 18665x spread in scale",
+      "imbalanced": "Inewspaper at 13.9% minority, 358 cases"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1225",
+    "name": "ex1225",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Sex at 45% minority, 2 binary columns",
+      "elig-anova": "Region, 4 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1317",
+    "name": "ex1317",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Strata at 46% minority",
+      "elig-two-group": "Strata, 2 groups",
+      "tiny-n": "28 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1319",
+    "name": "ex1319",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Adoptive at 47% minority, 2 binary columns",
+      "elig-two-group": "Adoptive, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1320",
+    "name": "ex1320",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Sex at 39% minority",
+      "elig-anova": "Background, 3 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1321",
+    "name": "ex1321",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Treatment at 20% minority",
+      "elig-two-group": "Treatment, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1416",
+    "name": "ex1416",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Treatment at 50% minority, 2 binary columns",
+      "elig-doe": "Treatment x Route, 2x2 balanced"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1417",
+    "name": "ex1417",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Treatment at 50% minority, 2 binary columns",
+      "elig-doe": "Treatment x Route, 2x2 balanced"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1419",
+    "name": "ex1419",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-pca": "10 numeric, 306x spread in scale",
+      "tiny-n": "12 rows",
+      "thin-per-predictor": "1.2 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1420",
+    "name": "ex1420",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Sex at 17% minority",
+      "elig-anova": "Diet, 3 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1507",
+    "name": "ex1507",
+    "source": "Sleuth3",
+    "flags": {
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1509",
+    "name": "ex1509",
+    "source": "Sleuth3",
+    "flags": {
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1514",
+    "name": "ex1514",
+    "source": "Sleuth3",
+    "flags": {
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1515",
+    "name": "ex1515",
+    "source": "Sleuth3",
+    "flags": {
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1516",
+    "name": "ex1516",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "26 rows",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1517",
+    "name": "ex1517",
+    "source": "Sleuth3",
+    "flags": {
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1518",
+    "name": "ex1518",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Vaccine at 22% minority",
+      "elig-two-group": "Vaccine, 2 groups",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1519",
+    "name": "ex1519",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "3 numeric predictors",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1605",
+    "name": "ex1605",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 5x spread in scale"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1611",
+    "name": "ex1611",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "21 rows",
+      "thin-per-predictor": "7.0 rows per predictor",
+      "missing-light": "90% of rows complete",
+      "id-or-text": "Country, 21 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1612",
+    "name": "ex1612",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "11 rows",
+      "thin-per-predictor": "3.7 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1613",
+    "name": "ex1613",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Species at 50% minority",
+      "elig-two-group": "Species, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1614",
+    "name": "ex1614",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "12 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1615",
+    "name": "ex1615",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 1x spread in scale",
+      "id-or-text": "State, 51 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1620",
+    "name": "ex1620",
+    "source": "Sleuth3",
+    "flags": {
+      "id-or-text": "GeneName, 20245 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1708",
+    "name": "ex1708",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "12 rows",
+      "wide": "14 columns, 12 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1715",
+    "name": "ex1715",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "18 rows",
+      "thin-per-predictor": "6.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1716",
+    "name": "ex1716",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 51x spread in scale",
+      "thin-per-predictor": "7.8 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1914",
+    "name": "ex1914",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Group at 50% minority",
+      "elig-two-group": "Group, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1916",
+    "name": "ex1916",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "4 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1917",
+    "name": "ex1917",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "6 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1918",
+    "name": "ex1918",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "12 rows",
+      "thin-per-predictor": "4.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1919",
+    "name": "ex1919",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "8 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1921",
+    "name": "ex1921",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "3 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1922",
+    "name": "ex1922",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "6 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex1923",
+    "name": "ex1923",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "29 rows",
+      "id-or-text": "Order, 29 levels"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2011",
+    "name": "ex2011",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Failure at 29% minority",
+      "elig-two-group": "Failure, 2 groups",
+      "tiny-n": "24 rows",
+      "thin-class": "Failure, only 7 in the smaller class"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2012",
+    "name": "ex2012",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Group at 32% minority",
+      "elig-two-group": "Group, 2 groups"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2015",
+    "name": "ex2015",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Site at 50% minority",
+      "elig-two-group": "Site, 2 groups",
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 1x spread in scale",
+      "thin-per-predictor": "8.6 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2016",
+    "name": "ex2016",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Status at 41% minority, 2 binary columns",
+      "elig-two-group": "Status, 2 groups",
+      "elig-regression": "9 numeric predictors",
+      "elig-pca": "9 numeric, 307x spread in scale",
+      "thin-per-predictor": "9.7 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2017",
+    "name": "ex2017",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "12 rows",
+      "thin-per-predictor": "6.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2018",
+    "name": "ex2018",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Make at 22% minority",
+      "elig-two-group": "Make, 2 groups",
+      "imbalanced": "Cause at 1.2% minority, 27 cases"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2019",
+    "name": "ex2019",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "17 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2113",
+    "name": "ex2113",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "4 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2115",
+    "name": "ex2115",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "8 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2116",
+    "name": "ex2116",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-regression": "3 numeric predictors",
+      "tiny-n": "20 rows",
+      "thin-per-predictor": "6.7 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2117",
+    "name": "ex2117",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "5 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2118",
+    "name": "ex2118",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "4 rows",
+      "wide": "5 columns, 4 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2119",
+    "name": "ex2119",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Lactate at 50% minority",
+      "elig-two-group": "Lactate, 2 groups",
+      "tiny-n": "20 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2120",
+    "name": "ex2120",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Treatment at 50% minority",
+      "elig-anova": "Day, 5 groups",
+      "elig-regression": "4 numeric predictors",
+      "elig-doe": "Treatment x Day, 2x5 balanced"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2216",
+    "name": "ex2216",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "17 rows",
+      "thin-per-predictor": "8.5 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2220",
+    "name": "ex2220",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "YearsAfter, 7 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2222",
+    "name": "ex2222",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Word, 6 groups",
+      "elig-doe": "Book x Word, 4x6 balanced",
+      "tiny-n": "24 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2223",
+    "name": "ex2223",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "24 rows"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2224",
+    "name": "ex2224",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-classification": "Mode at 42% minority",
+      "elig-anova": "System, 5 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2225",
+    "name": "ex2225",
+    "source": "Sleuth3",
+    "flags": {}
+  },
+  {
+    "key": "Sleuth3/ex2226",
+    "name": "ex2226",
+    "source": "Sleuth3",
+    "flags": {
+      "tiny-n": "13 rows",
+      "thin-per-predictor": "6.5 rows per predictor"
+    }
+  },
+  {
+    "key": "Sleuth3/ex2414",
+    "name": "ex2414",
+    "source": "Sleuth3",
+    "flags": {
+      "elig-anova": "Location, 4 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/AccordPrice",
+    "name": "AccordPrice",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/AHCAvote2017",
+    "name": "AHCAvote2017",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "AHCAvote at 50% minority, 5 binary columns",
+      "elig-two-group": "Party, 2 groups",
+      "elig-regression": "3 numeric predictors",
+      "id-or-text": "Dist, 430 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/Airlines",
+    "name": "Airlines",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "airport at 45% minority, 5 binary columns"
+    }
+  },
+  {
+    "key": "Stat2Data/Alfalfa",
+    "name": "Alfalfa",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-doe": "Acid x Row, 3x5 balanced",
+      "tiny-n": "15 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/AlitoConfirmation",
+    "name": "AlitoConfirmation",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Party at 45% minority, 3 binary columns",
+      "elig-two-group": "Party, 2 groups",
+      "id-or-text": "Senator, 100 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/Amyloid",
+    "name": "Amyloid",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "Group, 3 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/AppleStock",
+    "name": "AppleStock",
+    "source": "Stat2Data",
+    "flags": {
+      "missing-light": "98% of rows complete",
+      "date-or-timestamp": "Date"
+    }
+  },
+  {
+    "key": "Stat2Data/ArcheryData",
+    "name": "ArcheryData",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-two-group": "Sex, 2 groups",
+      "tiny-n": "18 rows",
+      "thin-per-predictor": "4.5 rows per predictor"
+    }
+  },
+  {
+    "key": "Stat2Data/AthleteGrad",
+    "name": "AthleteGrad",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Student at 8% minority",
+      "imbalanced": "Grad at 3.5% minority, 1765 cases"
+    }
+  },
+  {
+    "key": "Stat2Data/AudioVisual",
+    "name": "AudioVisual",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Stimulus at 50% minority, 2 binary columns",
+      "id-or-text": "Subject, 36 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/AutoPollution",
+    "name": "AutoPollution",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Type at 50% minority, 2 binary columns",
+      "elig-anova": "Size, 3 groups",
+      "elig-doe": "Type x Side, 2x2 balanced"
+    }
+  },
+  {
+    "key": "Stat2Data/Backpack",
+    "name": "Backpack",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 45% minority, 2 binary columns",
+      "elig-two-group": "BackProblems, 2 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 802x spread in scale",
+      "imbalanced": "Status at 3.0% minority, 3 cases",
+      "id-or-text": "Major, 41 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/BaseballTimes",
+    "name": "BaseballTimes",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-two-group": "League, 2 groups",
+      "tiny-n": "15 rows",
+      "thin-per-predictor": "3.8 rows per predictor"
+    }
+  },
+  {
+    "key": "Stat2Data/BaseballTimes2017",
+    "name": "BaseballTimes2017",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "14 rows",
+      "thin-per-predictor": "7.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Stat2Data/BeeStings",
+    "name": "BeeStings",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-two-group": "Treatment, 2 groups",
+      "tiny-n": "18 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/BirdCalcium",
+    "name": "BirdCalcium",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 50% minority, 2 binary columns",
+      "elig-doe": "Sex x Hormone, 2x2 balanced",
+      "tiny-n": "20 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/BirdNest",
+    "name": "BirdNest",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Closed. at 32% minority, 2 binary columns",
+      "elig-two-group": "Color, 2 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 58x spread in scale",
+      "missing-light": "99% of rows complete",
+      "id-or-text": "Species, 84 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/Blood1",
+    "name": "Blood1",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Smoke at 47% minority",
+      "elig-anova": "Overwt, 3 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/BlueJays",
+    "name": "BlueJays",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "KnownSex at 49% minority, 2 binary columns",
+      "elig-two-group": "KnownSex, 2 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 12x spread in scale",
+      "id-or-text": "BirdID, 123 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/BrainpH",
+    "name": "BrainpH",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 19% minority",
+      "elig-two-group": "Sex, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/BreesPass",
+    "name": "BreesPass",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "16 rows",
+      "thin-per-predictor": "8.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Stat2Data/BritishUnions",
+    "name": "BritishUnions",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-two-group": "Late, 2 groups",
+      "tiny-n": "17 rows",
+      "thin-per-predictor": "5.7 rows per predictor"
+    }
+  },
+  {
+    "key": "Stat2Data/ButterfliesBc",
+    "name": "ButterfliesBc",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 50% minority",
+      "elig-two-group": "Sex, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/CAFE",
+    "name": "CAFE",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Dem at 49% minority, 2 binary columns",
+      "elig-two-group": "Dem, 2 groups",
+      "id-or-text": "Senator, 100 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/CalciumBP",
+    "name": "CalciumBP",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Treatment at 48% minority",
+      "elig-two-group": "Treatment, 2 groups",
+      "tiny-n": "21 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/CanadianDrugs",
+    "name": "CanadianDrugs",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Party at 47% minority, 3 binary columns",
+      "id-or-text": "Senator, 94 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/CancerSurvival",
+    "name": "CancerSurvival",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "Organ, 5 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/Caterpillars",
+    "name": "Caterpillars",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Fgp at 33% minority, 3 binary columns",
+      "elig-anova": "Instar, 5 groups",
+      "elig-regression": "8 numeric predictors",
+      "elig-pca": "8 numeric, 371x spread in scale",
+      "missing-light": "95% of rows complete"
+    }
+  },
+  {
+    "key": "Stat2Data/CavsShooting",
+    "name": "CavsShooting",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Hit at 47% minority, 3 binary columns"
+    }
+  },
+  {
+    "key": "Stat2Data/Cereal",
+    "name": "Cereal",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "3 numeric predictors",
+      "id-or-text": "Cereal, 36 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/ChemoTHC",
+    "name": "ChemoTHC",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "2 rows",
+      "wide": "4 columns, 2 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/ChildSpeaks",
+    "name": "ChildSpeaks",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "21 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/ClintonSanders",
+    "name": "ClintonSanders",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "PaperTrail at 42% minority",
+      "elig-two-group": "PaperTrail, 2 groups",
+      "id-or-text": "State, 31 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/Clothing",
+    "name": "Clothing",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Card at 33% minority",
+      "elig-two-group": "Card, 2 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 99292x spread in scale"
+    }
+  },
+  {
+    "key": "Stat2Data/CloudSeeding",
+    "name": "CloudSeeding",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Seeded at 50% minority",
+      "elig-two-group": "Seeded, 2 groups",
+      "elig-regression": "4 numeric predictors",
+      "tiny-n": "28 rows",
+      "thin-per-predictor": "7.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Stat2Data/CloudSeeding2",
+    "name": "CloudSeeding2",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Seeded at 50% minority",
+      "elig-anova": "Season, 4 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 2x spread in scale"
+    }
+  },
+  {
+    "key": "Stat2Data/CO2",
+    "name": "CO2",
+    "source": "Stat2Data",
+    "flags": {}
+  },
+  {
+    "key": "Stat2Data/CO2Germany",
+    "name": "CO2Germany",
+    "source": "Stat2Data",
+    "flags": {}
+  },
+  {
+    "key": "Stat2Data/CO2Hawaii",
+    "name": "CO2Hawaii",
+    "source": "Stat2Data",
+    "flags": {
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/CO2SouthPole",
+    "name": "CO2SouthPole",
+    "source": "Stat2Data",
+    "flags": {
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/Contraceptives",
+    "name": "Contraceptives",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "StudyPeriod at 50% minority, 2 binary columns",
+      "elig-doe": "StudyPeriod x Treatment, 2x2 balanced"
+    }
+  },
+  {
+    "key": "Stat2Data/CountyHealth",
+    "name": "CountyHealth",
+    "source": "Stat2Data",
+    "flags": {
+      "id-or-text": "County, 53 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/CrabShip",
+    "name": "CrabShip",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Noise at 50% minority",
+      "elig-two-group": "Noise, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/CrackerFiber",
+    "name": "CrackerFiber",
+    "source": "Stat2Data",
+    "flags": {}
+  },
+  {
+    "key": "Stat2Data/CreditRisk",
+    "name": "CreditRisk",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 44% minority, 2 binary columns",
+      "elig-two-group": "Sex, 2 groups",
+      "imbalanced": "Overdrawn at 13.4% minority, 60 cases",
+      "missing-light": "97% of rows complete"
+    }
+  },
+  {
+    "key": "Stat2Data/Cuckoo",
+    "name": "Cuckoo",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "Bird, 6 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/Day1Survey",
+    "name": "Day1Survey",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Section at 44% minority, 2 binary columns",
+      "elig-two-group": "Section, 2 groups",
+      "elig-regression": "9 numeric predictors",
+      "elig-pca": "9 numeric, 771x spread in scale",
+      "thin-per-predictor": "4.8 rows per predictor",
+      "missing-light": "98% of rows complete"
+    }
+  },
+  {
+    "key": "Stat2Data/DiabeticDogs",
+    "name": "DiabeticDogs",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Method at 50% minority, 2 binary columns",
+      "elig-two-group": "Method, 2 groups",
+      "elig-doe": "Method x Operation, 2x2 balanced",
+      "tiny-n": "20 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/Diamonds",
+    "name": "Diamonds",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "Color, 7 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/Diamonds2",
+    "name": "Diamonds2",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "Color, 4 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/Dinosaurs",
+    "name": "Dinosaurs",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Source at 46% minority",
+      "elig-two-group": "Source, 2 groups",
+      "tiny-n": "28 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/Election08",
+    "name": "Election08",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "ObamaWin at 43% minority",
+      "elig-two-group": "ObamaWin, 2 groups",
+      "elig-regression": "3 numeric predictors",
+      "id-or-text": "State, 51 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/Election16",
+    "name": "Election16",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "TrumpWin at 40% minority",
+      "elig-two-group": "TrumpWin, 2 groups",
+      "elig-regression": "4 numeric predictors",
+      "id-or-text": "State, 50 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/ElephantsFB",
+    "name": "ElephantsFB",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Firstborn at 17% minority",
+      "elig-two-group": "Firstborn, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/ElephantsMF",
+    "name": "ElephantsMF",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 48% minority",
+      "elig-two-group": "Sex, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/Ethanol",
+    "name": "Ethanol",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-two-group": "Sugar, 2 groups",
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/Eyes",
+    "name": "Eyes",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 47% minority, 3 binary columns"
+    }
+  },
+  {
+    "key": "Stat2Data/Faces",
+    "name": "Faces",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 76x spread in scale",
+      "thin-per-predictor": "7.6 rows per predictor",
+      "missing-heavy": "82% of rows complete, worst column 18% absent"
+    }
+  },
+  {
+    "key": "Stat2Data/FaithfulFaces",
+    "name": "FaithfulFaces",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "FaceSex at 48% minority, 3 binary columns",
+      "elig-two-group": "Cheater, 2 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/FantasyBaseball",
+    "name": "FantasyBaseball",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "8 numeric predictors",
+      "elig-pca": "8 numeric, 4x spread in scale",
+      "tiny-n": "24 rows",
+      "thin-per-predictor": "3.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Stat2Data/FatRats",
+    "name": "FatRats",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Protein at 50% minority",
+      "elig-anova": "Source, 3 groups",
+      "elig-doe": "Protein x Source, 2x3 balanced"
+    }
+  },
+  {
+    "key": "Stat2Data/Fertility",
+    "name": "Fertility",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "10 numeric predictors",
+      "elig-pca": "10 numeric, 706x spread in scale"
+    }
+  },
+  {
+    "key": "Stat2Data/FGByDistance",
+    "name": "FGByDistance",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 2201x spread in scale"
+    }
+  },
+  {
+    "key": "Stat2Data/Film",
+    "name": "Film",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Time_code at 42% minority, 2 binary columns",
+      "elig-two-group": "Time_code, 2 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 26x spread in scale",
+      "year-column": "Year",
+      "id-or-text": "Title, 100 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/FinalFourIzzo",
+    "name": "FinalFourIzzo",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Final4 at 6% minority",
+      "elig-two-group": "Final4, 2 groups",
+      "imbalanced": "Final4 at 6.2% minority, 104 cases",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/FinalFourIzzo17",
+    "name": "FinalFourIzzo17",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Final4 at 6% minority",
+      "elig-two-group": "Final4, 2 groups",
+      "imbalanced": "Final4 at 6.2% minority, 132 cases",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/FinalFourLong",
+    "name": "FinalFourLong",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Final4 at 6% minority",
+      "elig-two-group": "Final4, 2 groups",
+      "imbalanced": "Final4 at 6.2% minority, 128 cases",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/FinalFourLong17",
+    "name": "FinalFourLong17",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Final4 at 6% minority",
+      "elig-two-group": "Final4, 2 groups",
+      "imbalanced": "Final4 at 6.2% minority, 156 cases",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/FinalFourShort",
+    "name": "FinalFourShort",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "3 numeric predictors",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/FinalFourShort17",
+    "name": "FinalFourShort17",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "3 numeric predictors",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/Fingers",
+    "name": "Fingers",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "12 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/FirstYearGPA",
+    "name": "FirstYearGPA",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Male at 47% minority, 4 binary columns",
+      "elig-two-group": "Male, 2 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 223x spread in scale",
+      "imbalanced": "CollegeBound at 7.8% minority, 17 cases"
+    }
+  },
+  {
+    "key": "Stat2Data/FishEggs",
+    "name": "FishEggs",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Month at 40% minority, 2 binary columns",
+      "elig-two-group": "Month, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/Fitch",
+    "name": "Fitch",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Order at 50% minority",
+      "elig-two-group": "Order, 2 groups",
+      "tiny-n": "28 rows",
+      "id-or-text": "Species, 28 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/FlightResponse",
+    "name": "FlightResponse",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Flight at 39% minority",
+      "elig-anova": "LatCat, 4 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/FloridaDP",
+    "name": "FloridaDP",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Defendant at 49% minority, 4 binary columns",
+      "imbalanced": "Penalty at 11.0% minority, 36 cases"
+    }
+  },
+  {
+    "key": "Stat2Data/Fluorescence",
+    "name": "Fluorescence",
+    "source": "Stat2Data",
+    "flags": {}
+  },
+  {
+    "key": "Stat2Data/FranticFingers",
+    "name": "FranticFingers",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "12 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/FruitFlies",
+    "name": "FruitFlies",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "Treatment, 5 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/FruitFlies2",
+    "name": "FruitFlies2",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Mated at 50% minority, 2 binary columns",
+      "elig-two-group": "Mated, 2 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/FunnelDrop",
+    "name": "FunnelDrop",
+    "source": "Stat2Data",
+    "flags": {}
+  },
+  {
+    "key": "Stat2Data/GlowWorms",
+    "name": "GlowWorms",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "26 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/Goldenrod",
+    "name": "Goldenrod",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Fly04 at 36% minority",
+      "elig-anova": "Fate03, 6 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 4x spread in scale",
+      "missing-heavy": "51% of rows complete, worst column 44% absent"
+    }
+  },
+  {
+    "key": "Stat2Data/GrinnellHouses",
+    "name": "GrinnellHouses",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "12 numeric predictors",
+      "elig-pca": "12 numeric, 114612x spread in scale",
+      "missing-heavy": "79% of rows complete, worst column 20% absent",
+      "year-column": "YearBuilt, YearSold",
+      "id-or-text": "Address, 806 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/Grocery",
+    "name": "Grocery",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "Discount, 3 groups",
+      "elig-regression": "3 numeric predictors",
+      "elig-doe": "Discount x Display, 3x3 balanced"
+    }
+  },
+  {
+    "key": "Stat2Data/Gunnels",
+    "name": "Gunnels",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Water at 49% minority, 3 binary columns",
+      "elig-anova": "Amphiso, 5 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 322x spread in scale",
+      "imbalanced": "Gunnel at 3.0% minority, 48 cases"
+    }
+  },
+  {
+    "key": "Stat2Data/Handwriting",
+    "name": "Handwriting",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Gender at 45% minority",
+      "elig-two-group": "Gender, 2 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 2x spread in scale",
+      "missing-light": "96% of rows complete"
+    }
+  },
+  {
+    "key": "Stat2Data/Hawks",
+    "name": "Hawks",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 48% minority, 2 binary columns",
+      "elig-anova": "WingPitFat, 4 groups",
+      "elig-regression": "10 numeric predictors",
+      "elig-pca": "10 numeric, 1002x spread in scale",
+      "missing-heavy": "4% of rows complete, worst column 92% absent",
+      "date-or-timestamp": "CaptureTime, ReleaseTime",
+      "year-column": "Year",
+      "id-or-text": "BandNumber, 907 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/HawkTail",
+    "name": "HawkTail",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Species at 31% minority",
+      "elig-two-group": "Species, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/HawkTail2",
+    "name": "HawkTail2",
+    "source": "Stat2Data",
+    "flags": {
+      "missing-heavy": "45% of rows complete, worst column 55% absent"
+    }
+  },
+  {
+    "key": "Stat2Data/HearingTest",
+    "name": "HearingTest",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "List, 4 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/HeatingOil",
+    "name": "HeatingOil",
+    "source": "Stat2Data",
+    "flags": {
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/HighPeaks",
+    "name": "HighPeaks",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 536x spread in scale",
+      "thin-per-predictor": "9.2 rows per predictor",
+      "id-or-text": "Peak, 46 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/Hoops",
+    "name": "Hoops",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Home at 49% minority, 3 binary columns",
+      "elig-anova": "Opp, 9 groups",
+      "elig-regression": "16 numeric predictors",
+      "elig-pca": "16 numeric, 9x spread in scale",
+      "thin-per-predictor": "9.2 rows per predictor",
+      "imbalanced": "X40Point at 9.6% minority, 14 cases",
+      "missing-light": "99% of rows complete"
+    }
+  },
+  {
+    "key": "Stat2Data/HorsePrices",
+    "name": "HorsePrices",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 40% minority",
+      "elig-two-group": "Sex, 2 groups",
+      "elig-regression": "3 numeric predictors",
+      "missing-light": "94% of rows complete"
+    }
+  },
+  {
+    "key": "Stat2Data/Houses",
+    "name": "Houses",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "20 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/HousesNY",
+    "name": "HousesNY",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 69x spread in scale"
+    }
+  },
+  {
+    "key": "Stat2Data/ICU",
+    "name": "ICU",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Infection at 42% minority, 4 binary columns",
+      "elig-anova": "AgeGroup, 3 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/InfantMortality2010",
+    "name": "InfantMortality2010",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "10 rows",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/Inflation",
+    "name": "Inflation",
+    "source": "Stat2Data",
+    "flags": {
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/InsuranceVote",
+    "name": "InsuranceVote",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "InsVote at 49% minority, 5 binary columns",
+      "elig-two-group": "Party, 2 groups",
+      "elig-regression": "3 numeric predictors",
+      "id-or-text": "Dist., 435 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/IQGuessing",
+    "name": "IQGuessing",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/Jurors",
+    "name": "Jurors",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "I2000 at 50% minority",
+      "elig-two-group": "I2000, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/Kershaw",
+    "name": "Kershaw",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Swing at 49% minority, 4 binary columns",
+      "elig-anova": "Count, 9 groups",
+      "elig-regression": "10 numeric predictors",
+      "elig-pca": "10 numeric, 8x spread in scale",
+      "id-or-text": "Time, 3402 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/KeyWestWater",
+    "name": "KeyWestWater",
+    "source": "Stat2Data",
+    "flags": {
+      "id-or-text": "DateTime, 6572 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/Kids198",
+    "name": "Kids198",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 48% minority, 2 binary columns",
+      "elig-two-group": "Sex, 2 groups",
+      "elig-regression": "3 numeric predictors",
+      "imbalanced": "Race at 12.1% minority, 24 cases"
+    }
+  },
+  {
+    "key": "Stat2Data/Leafhoppers",
+    "name": "Leafhoppers",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "8 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/LeafWidth",
+    "name": "LeafWidth",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "4 numeric predictors",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/Leukemia",
+    "name": "Leukemia",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Resp at 47% minority, 2 binary columns",
+      "elig-two-group": "Resp, 2 groups",
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 5x spread in scale",
+      "thin-per-predictor": "7.3 rows per predictor",
+      "imbalanced": "Status at 11.8% minority, 6 cases"
+    }
+  },
+  {
+    "key": "Stat2Data/LeveeFailures",
+    "name": "LeveeFailures",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Failure at 50% minority, 3 binary columns",
+      "elig-anova": "Meander, 4 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 773706x spread in scale",
+      "imbalanced": "Revetement at 2.4% minority, 2 cases"
+    }
+  },
+  {
+    "key": "Stat2Data/LewyBody2Groups",
+    "name": "LewyBody2Groups",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Type at 49% minority",
+      "elig-two-group": "Type, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/LewyDLBad",
+    "name": "LewyDLBad",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "20 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/LongJumpOlympics",
+    "name": "LongJumpOlympics",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "26 rows",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/LongJumpOlympics2016",
+    "name": "LongJumpOlympics2016",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "28 rows",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/LosingSleep",
+    "name": "LosingSleep",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Outcome at 34% minority",
+      "elig-two-group": "Outcome, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/LostLetter",
+    "name": "LostLetter",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Address at 50% minority, 7 binary columns",
+      "imbalanced": "GrinellCampus at 14.3% minority, 20 cases"
+    }
+  },
+  {
+    "key": "Stat2Data/Marathon",
+    "name": "Marathon",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Short at 40% minority, 2 binary columns",
+      "elig-two-group": "Short, 2 groups",
+      "elig-regression": "3 numeric predictors",
+      "missing-heavy": "33% of rows complete, worst column 67% absent",
+      "date-or-timestamp": "Date, Time, Pace"
+    }
+  },
+  {
+    "key": "Stat2Data/Markets",
+    "name": "Markets",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Up at 48% minority",
+      "elig-two-group": "Up, 2 groups",
+      "elig-regression": "3 numeric predictors",
+      "date-or-timestamp": "Date"
+    }
+  },
+  {
+    "key": "Stat2Data/MathEnrollment",
+    "name": "MathEnrollment",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "11 rows",
+      "year-column": "AYear"
+    }
+  },
+  {
+    "key": "Stat2Data/MathPlacement",
+    "name": "MathPlacement",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Gender at 46% minority, 4 binary columns",
+      "elig-anova": "Recommends, 9 groups",
+      "elig-regression": "9 numeric predictors",
+      "elig-pca": "9 numeric, 315x spread in scale",
+      "imbalanced": "TooLow at 2.0% minority, 54 cases",
+      "missing-heavy": "4% of rows complete, worst column 78% absent"
+    }
+  },
+  {
+    "key": "Stat2Data/MedGPA",
+    "name": "MedGPA",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 49% minority, 3 binary columns",
+      "elig-two-group": "Accept, 2 groups",
+      "elig-regression": "8 numeric predictors",
+      "elig-pca": "8 numeric, 17x spread in scale",
+      "thin-per-predictor": "6.9 rows per predictor",
+      "missing-light": "98% of rows complete"
+    }
+  },
+  {
+    "key": "Stat2Data/Meniscus",
+    "name": "Meniscus",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "Method, 3 groups",
+      "tiny-n": "18 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/MentalHealth",
+    "name": "MentalHealth",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "Moon, 3 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/MetabolicRate",
+    "name": "MetabolicRate",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "Instar, 5 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 380x spread in scale"
+    }
+  },
+  {
+    "key": "Stat2Data/MetroCommutes",
+    "name": "MetroCommutes",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "City, 4 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/MetroHealth83",
+    "name": "MetroHealth83",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "15 numeric predictors",
+      "elig-pca": "15 numeric, 27602x spread in scale",
+      "thin-per-predictor": "5.5 rows per predictor",
+      "id-or-text": "City, 76 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/Migraines",
+    "name": "Migraines",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "2 rows",
+      "wide": "4 columns, 2 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/Milgram",
+    "name": "Milgram",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "Results, 3 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/MLB2007Standings",
+    "name": "MLB2007Standings",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "League at 47% minority",
+      "elig-two-group": "League, 2 groups",
+      "elig-regression": "19 numeric predictors",
+      "elig-pca": "19 numeric, 6983x spread in scale",
+      "thin-per-predictor": "1.6 rows per predictor",
+      "id-or-text": "Team, 30 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/MLBStandings2016",
+    "name": "MLBStandings2016",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "League at 50% minority",
+      "elig-two-group": "League, 2 groups",
+      "elig-regression": "17 numeric predictors",
+      "elig-pca": "17 numeric, 9799x spread in scale",
+      "thin-per-predictor": "1.8 rows per predictor",
+      "id-or-text": "Team, 30 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/MothEggs",
+    "name": "MothEggs",
+    "source": "Stat2Data",
+    "flags": {}
+  },
+  {
+    "key": "Stat2Data/MouseBrain",
+    "name": "MouseBrain",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 48% minority",
+      "elig-anova": "Genotype, 3 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/MusicTime",
+    "name": "MusicTime",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 50% minority, 2 binary columns",
+      "elig-anova": "Music, 3 groups",
+      "elig-doe": "Sex x Music, 2x3 balanced"
+    }
+  },
+  {
+    "key": "Stat2Data/NCbirths",
+    "name": "NCbirths",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 49% minority, 5 binary columns",
+      "elig-anova": "MomRace, 4 groups",
+      "elig-regression": "6 numeric predictors",
+      "elig-pca": "6 numeric, 424x spread in scale",
+      "imbalanced": "Low at 8.6% minority, 125 cases",
+      "missing-light": "97% of rows complete"
+    }
+  },
+  {
+    "key": "Stat2Data/NFL2007Standings",
+    "name": "NFL2007Standings",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Conference at 50% minority",
+      "elig-anova": "Division, 8 groups",
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 560x spread in scale",
+      "thin-per-predictor": "4.6 rows per predictor",
+      "id-or-text": "Team, 32 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/NFLStandings2016",
+    "name": "NFLStandings2016",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Ties at 12% minority",
+      "elig-two-group": "Ties, 2 groups",
+      "elig-regression": "7 numeric predictors",
+      "elig-pca": "7 numeric, 431x spread in scale",
+      "thin-per-predictor": "4.6 rows per predictor",
+      "imbalanced": "Ties at 12.5% minority, 4 cases",
+      "id-or-text": "Team, 32 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/Nursing",
+    "name": "Nursing",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Rural at 35% minority",
+      "elig-two-group": "Rural, 2 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/OilDeapsorbtion",
+    "name": "OilDeapsorbtion",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Salt at 50% minority",
+      "elig-two-group": "Salt, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/Olives",
+    "name": "Olives",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-two-group": "Group, 2 groups",
+      "tiny-n": "18 rows",
+      "thin-per-predictor": "6.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Stat2Data/Orings",
+    "name": "Orings",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Temp at 17% minority",
+      "tiny-n": "24 rows",
+      "thin-class": "Temp, only 4 in the smaller class"
+    }
+  },
+  {
+    "key": "Stat2Data/Overdrawn",
+    "name": "Overdrawn",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 44% minority, 2 binary columns",
+      "elig-two-group": "Sex, 2 groups",
+      "imbalanced": "Overdrawn at 13.4% minority, 60 cases",
+      "missing-light": "97% of rows complete"
+    }
+  },
+  {
+    "key": "Stat2Data/Oysters",
+    "name": "Oysters",
+    "source": "Stat2Data",
+    "flags": {}
+  },
+  {
+    "key": "Stat2Data/PalmBeach",
+    "name": "PalmBeach",
+    "source": "Stat2Data",
+    "flags": {
+      "id-or-text": "County, 67 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/PeaceBridge2003",
+    "name": "PeaceBridge2003",
+    "source": "Stat2Data",
+    "flags": {
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/PeaceBridge2012",
+    "name": "PeaceBridge2012",
+    "source": "Stat2Data",
+    "flags": {}
+  },
+  {
+    "key": "Stat2Data/Pedometer",
+    "name": "Pedometer",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "DayType at 16% minority",
+      "elig-anova": "Day, 7 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/Perch",
+    "name": "Perch",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/PigFeed",
+    "name": "PigFeed",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "12 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/Pines",
+    "name": "Pines",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Fert at 49% minority, 3 binary columns",
+      "elig-anova": "Cover95, 4 groups",
+      "elig-regression": "10 numeric predictors",
+      "elig-pca": "10 numeric, 57x spread in scale",
+      "imbalanced": "Deer97 at 10.6% minority, 92 cases",
+      "missing-heavy": "78% of rows complete, worst column 18% absent"
+    }
+  },
+  {
+    "key": "Stat2Data/PKU",
+    "name": "PKU",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Diet at 50% minority, 2 binary columns",
+      "elig-two-group": "Diet, 2 groups",
+      "elig-doe": "Diet x DietControl, 2x2 balanced",
+      "tiny-n": "20 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/Political",
+    "name": "Political",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 47% minority, 3 binary columns",
+      "elig-anova": "Paper, 5 groups",
+      "elig-regression": "3 numeric predictors",
+      "missing-light": "93% of rows complete"
+    }
+  },
+  {
+    "key": "Stat2Data/Pollster08",
+    "name": "Pollster08",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Meltdown at 49% minority, 2 binary columns",
+      "elig-anova": "Pop, 3 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 362x spread in scale",
+      "missing-light": "97% of rows complete",
+      "id-or-text": "PollDates, 56 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/Popcorn",
+    "name": "Popcorn",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "12 rows",
+      "thin-per-predictor": "6.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Stat2Data/PorscheJaguar",
+    "name": "PorscheJaguar",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Car at 50% minority, 2 binary columns",
+      "elig-two-group": "Car, 2 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/PorschePrice",
+    "name": "PorschePrice",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/Pulse",
+    "name": "Pulse",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 47% minority, 2 binary columns",
+      "elig-anova": "Exercise, 3 groups",
+      "elig-regression": "4 numeric predictors",
+      "imbalanced": "Smoke at 11.2% minority, 26 cases"
+    }
+  },
+  {
+    "key": "Stat2Data/Putts1",
+    "name": "Putts1",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Made at 42% minority",
+      "elig-two-group": "Made, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/Putts2",
+    "name": "Putts2",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "5 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/Putts3",
+    "name": "Putts3",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "5 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/RacialAnimus",
+    "name": "RacialAnimus",
+    "source": "Stat2Data",
+    "flags": {
+      "id-or-text": "MediaMarket, 196 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/RadioactiveTwins",
+    "name": "RadioactiveTwins",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Env at 50% minority",
+      "elig-two-group": "Env, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/RailsTrails",
+    "name": "RailsTrails",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "GarageGroup at 49% minority, 5 binary columns",
+      "elig-anova": "BedGroup, 3 groups",
+      "elig-regression": "16 numeric predictors",
+      "elig-pca": "16 numeric, 15561x spread in scale",
+      "thin-per-predictor": "6.5 rows per predictor",
+      "id-or-text": "StreetName, 73 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/Rectangles",
+    "name": "Rectangles",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "9 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/ReligionGDP",
+    "name": "ReligionGDP",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Africa at 23% minority, 6 binary columns",
+      "elig-two-group": "Africa, 2 groups",
+      "imbalanced": "EastEurope at 13.6% minority, 6 cases",
+      "thin-class": "Asia, only 7 in the smaller class",
+      "id-or-text": "Country, 44 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/RepeatedPulse",
+    "name": "RepeatedPulse",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "Time, 4 groups",
+      "id-or-text": "Day, 26 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/ResidualOil",
+    "name": "ResidualOil",
+    "source": "Stat2Data",
+    "flags": {
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/Retirement",
+    "name": "Retirement",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "16 rows",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/Ricci",
+    "name": "Ricci",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Position at 35% minority",
+      "elig-anova": "Race, 3 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/RiverElements",
+    "name": "RiverElements",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-pca": "11 numeric, 683x spread in scale",
+      "tiny-n": "12 rows",
+      "wide": "27 columns, 12 rows",
+      "thin-per-predictor": "1.1 rows per predictor",
+      "missing-light": "92% of rows complete"
+    }
+  },
+  {
+    "key": "Stat2Data/RiverIron",
+    "name": "RiverIron",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "12 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/SampleFG",
+    "name": "SampleFG",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Result at 30% minority",
+      "elig-two-group": "Result, 2 groups",
+      "elig-regression": "5 numeric predictors",
+      "elig-pca": "5 numeric, 8860x spread in scale",
+      "thin-per-predictor": "6.0 rows per predictor",
+      "thin-class": "Result, only 9 in the smaller class",
+      "year-column": "Year",
+      "id-or-text": "PlayerID, 23 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/SandwichAnts",
+    "name": "SandwichAnts",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Butter at 50% minority",
+      "elig-anova": "Bread, 4 groups",
+      "elig-doe": "Filling x Butter, 3x2 balanced"
+    }
+  },
+  {
+    "key": "Stat2Data/SATGPA",
+    "name": "SATGPA",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "3 numeric predictors",
+      "tiny-n": "24 rows",
+      "thin-per-predictor": "8.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Stat2Data/SeaIce",
+    "name": "SeaIce",
+    "source": "Stat2Data",
+    "flags": {
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/SeaSlugs",
+    "name": "SeaSlugs",
+    "source": "Stat2Data",
+    "flags": {}
+  },
+  {
+    "key": "Stat2Data/SleepingShrews",
+    "name": "SleepingShrews",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-doe": "Shrew x Phase, 6x3 balanced",
+      "tiny-n": "18 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/Sparrows",
+    "name": "Sparrows",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "Treatment, 3 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/SpeciesArea",
+    "name": "SpeciesArea",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "14 rows",
+      "thin-per-predictor": "7.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Stat2Data/Speed",
+    "name": "Speed",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "StateControl at 38% minority",
+      "elig-two-group": "StateControl, 2 groups",
+      "tiny-n": "21 rows",
+      "thin-class": "StateControl, only 8 in the smaller class",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/SugarEthanol",
+    "name": "SugarEthanol",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-two-group": "Sugar, 2 groups",
+      "tiny-n": "16 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/SuicideChina",
+    "name": "SuicideChina",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Died at 49% minority, 3 binary columns",
+      "elig-anova": "Occupation, 10 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/Swahili",
+    "name": "Swahili",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Province at 50% minority, 2 binary columns",
+      "elig-two-group": "Province, 2 groups",
+      "elig-doe": "Province x Sex, 2x2 balanced"
+    }
+  },
+  {
+    "key": "Stat2Data/Tadpoles",
+    "name": "Tadpoles",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Treatment at 48% minority",
+      "elig-two-group": "Treatment, 2 groups",
+      "tiny-n": "27 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/TechStocks",
+    "name": "TechStocks",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-regression": "3 numeric predictors",
+      "date-or-timestamp": "Date"
+    }
+  },
+  {
+    "key": "Stat2Data/TeenPregnancy",
+    "name": "TeenPregnancy",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "CivilWar, 4 groups",
+      "id-or-text": "State, 50 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/TextPrices",
+    "name": "TextPrices",
+    "source": "Stat2Data",
+    "flags": {}
+  },
+  {
+    "key": "Stat2Data/ThomasConfirmation",
+    "name": "ThomasConfirmation",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "ConfVote at 48% minority, 3 binary columns",
+      "elig-two-group": "Party, 2 groups",
+      "id-or-text": "Senator, 100 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/ThreeCars",
+    "name": "ThreeCars",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Porsche at 33% minority, 3 binary columns",
+      "elig-anova": "CarType, 3 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/ThreeCars2017",
+    "name": "ThreeCars2017",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Mazda6 at 33% minority, 3 binary columns",
+      "elig-anova": "CarType, 3 groups",
+      "elig-regression": "3 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/TipJoke",
+    "name": "TipJoke",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Ad at 35% minority, 4 binary columns"
+    }
+  },
+  {
+    "key": "Stat2Data/Titanic",
+    "name": "Titanic",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Sex at 35% minority, 3 binary columns",
+      "elig-two-group": "Sex, 2 groups",
+      "missing-heavy": "58% of rows complete, worst column 42% absent",
+      "id-or-text": "Name, 1310 levels"
+    }
+  },
+  {
+    "key": "Stat2Data/TMS",
+    "name": "TMS",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "2 rows",
+      "wide": "4 columns, 2 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/TomlinsonRush",
+    "name": "TomlinsonRush",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "16 rows",
+      "thin-per-predictor": "8.0 rows per predictor"
+    }
+  },
+  {
+    "key": "Stat2Data/TwinsLungs",
+    "name": "TwinsLungs",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "14 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/Undoing",
+    "name": "Undoing",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Symbol at 27% minority"
+    }
+  },
+  {
+    "key": "Stat2Data/USstamps",
+    "name": "USstamps",
+    "source": "Stat2Data",
+    "flags": {
+      "tiny-n": "25 rows",
+      "year-column": "Year"
+    }
+  },
+  {
+    "key": "Stat2Data/VisualVerbal",
+    "name": "VisualVerbal",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Task at 50% minority, 2 binary columns",
+      "elig-anova": "Group, 4 groups",
+      "elig-doe": "Task x Report, 2x2 balanced"
+    }
+  },
+  {
+    "key": "Stat2Data/Volts",
+    "name": "Volts",
+    "source": "Stat2Data",
+    "flags": {}
+  },
+  {
+    "key": "Stat2Data/WalkingBabies",
+    "name": "WalkingBabies",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-anova": "Group, 4 groups",
+      "tiny-n": "24 rows"
+    }
+  },
+  {
+    "key": "Stat2Data/WalkTheDogs",
+    "name": "WalkTheDogs",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Walk at 30% minority",
+      "elig-anova": "Day, 7 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/WeightLossIncentive",
+    "name": "WeightLossIncentive",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Group at 50% minority",
+      "elig-two-group": "Group, 2 groups",
+      "missing-heavy": "84% of rows complete, worst column 13% absent"
+    }
+  },
+  {
+    "key": "Stat2Data/WeightLossIncentive4",
+    "name": "WeightLossIncentive4",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Group at 47% minority",
+      "elig-two-group": "Group, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/WeightLossIncentive7",
+    "name": "WeightLossIncentive7",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Group at 45% minority",
+      "elig-two-group": "Group, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/Whickham2",
+    "name": "Whickham2",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Smoker at 44% minority, 4 binary columns",
+      "elig-two-group": "Outcome, 2 groups"
+    }
+  },
+  {
+    "key": "Stat2Data/WordMemory",
+    "name": "WordMemory",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Abstract at 50% minority, 2 binary columns",
+      "elig-anova": "Subject, 10 groups",
+      "elig-doe": "Abstract x Frequent, 2x2 balanced"
+    }
+  },
+  {
+    "key": "Stat2Data/WordsWithFriends",
+    "name": "WordsWithFriends",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "X at 49% minority, 5 binary columns",
+      "elig-anova": "BlanksNumber, 3 groups",
+      "elig-regression": "4 numeric predictors"
+    }
+  },
+  {
+    "key": "Stat2Data/Wrinkle",
+    "name": "Wrinkle",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "Fingers at 50% minority, 4 binary columns",
+      "elig-anova": "Condition, 4 groups",
+      "elig-doe": "WrinkledThenNon x DryThenWet, 2x2 balanced"
+    }
+  },
+  {
+    "key": "Stat2Data/YouthRisk",
+    "name": "YouthRisk",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "female at 47% minority, 4 binary columns",
+      "elig-two-group": "ride.alc.driver, 2 groups",
+      "missing-light": "92% of rows complete"
+    }
+  },
+  {
+    "key": "Stat2Data/YouthRisk2007",
+    "name": "YouthRisk2007",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "female at 47% minority, 4 binary columns",
+      "elig-two-group": "ride.alc.driver, 2 groups",
+      "missing-light": "92% of rows complete"
+    }
+  },
+  {
+    "key": "Stat2Data/YouthRisk2009",
+    "name": "YouthRisk2009",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "SmokeLife at 43% minority, 4 binary columns",
+      "elig-anova": "Sleep, 7 groups",
+      "imbalanced": "SmokeDaily at 8.6% minority, 40 cases",
+      "missing-heavy": "86% of rows complete, worst column 11% absent"
+    }
+  },
+  {
+    "key": "Stat2Data/Zimmerman",
+    "name": "Zimmerman",
+    "source": "Stat2Data",
+    "flags": {
+      "elig-classification": "IndWhiteDefendant at 40% minority, 5 binary columns"
+    }
+  }
+]

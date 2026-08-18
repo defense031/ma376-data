@@ -1,0 +1,21 @@
+"dataset","domain","response","m_regression","m_anova","m_interactions","m_doe","m_model_selection","m_logistic_classification","m_regularization","m_clustering_pca","usability"
+"nyc-collisions","Public safety","(you choose)",3,4,3,1,4,5,3,4,92.2
+"westpoint-assessment-rolls","Real estate (local)","full_market_value",4,5,4,1,4,4,3,2,92.2
+"college-scorecard","Higher education","median_earnings_10yr",5,4,4,1,5,4,4,5,92.2
+"movies-boxoffice","Entertainment","(define success)",5,4,4,1,4,4,4,4,91
+"flights-ontime","Air transportation","(you choose)",5,4,4,1,4,5,4,3,91
+"online-retail","E-commerce","(engineer it)",4,4,3,1,4,5,3,5,90.4
+"storm-events","Severe weather","(you choose)",4,4,4,1,4,5,4,3,90.4
+"ny-dmv-crashes","Traffic safety","(you choose)",2,4,5,1,4,5,4,2,89.2
+"cfpb-complaints","Consumer finance","company_response",2,2,4,1,3,5,3,4,86.8
+"mta-subway-ridership","Urban transit","(you choose)",4,4,4,1,3,3,4,5,86.8
+"communities-crime","Public policy","violent_crime",5,2,3,1,5,3,5,3,86.6
+"garment-productivity","Manufacturing","actual_productivity",5,5,4,3,4,3,3,2,84.8
+"absenteeism-courier","Logistics/HR","absence_hours",4,5,4,2,4,4,3,2,84.2
+"gapminder-development","Global dev.","(you choose)",5,4,4,1,3,3,2,5,83.2
+"concrete-strength","Materials/DOE","strength",5,3,5,5,4,3,3,2,79.4
+"forest-fires","Fire mgmt","area",3,3,3,1,4,4,3,2,78.2
+"energy-efficiency","Architecture/DOE","heating/cooling",5,3,5,5,4,3,4,2,72.8
+"superconductivity","Materials sci.","critical_temp",5,1,3,1,5,2,5,3,70.8
+"parkinsons-telemonitoring","Digital health","total_updrs",5,2,3,1,4,2,5,3,70.2
+"ionosphere-radar","Atmospheric","good_bad",2,1,2,1,5,5,5,3,70.2
