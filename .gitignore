@@ -1,0 +1,6 @@
+# iCloud/Finder conflict copies. ~/Desktop is synced, and a rebuild that rewrites many
+# files can leave "manifest 2.csv" or "sleuth3 2/" behind. build_data_repo.R prunes
+# these, but they must never be publishable even if a build is interrupted.
+* [0-9]
+* [0-9].*
+.DS_Store
