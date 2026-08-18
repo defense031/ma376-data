@@ -1,0 +1,444 @@
+"CommonName","Genus","Species","Group","BodyMass","ClutchVolume"
+"Mallard","Anas","platyrhynchos","Mat",1.14,542000
+"Greylag Goose","Anser","anser","Mat",3.31,797000
+"Mute Swan","Cygnus","olor","Mat",10.7,1750000
+"Common Eider","Somateria","mollissima","Mat",2.07,475000
+"Southern Screamer","Chauna","torquata","BiP",4.4,513000
+"Alpine Swift","Tachymarptis","melba","BiP",0.103,12400
+"Crested Treeswift","Hemiprocne","coronata","BiP",0.029,3610
+"Rufous Hummingbird","Selasphorus","rufus","Mat",0.0035,921
+"Eurasian Nightjar","Caprimulgus","europaeus","BiP",0.067,15600
+"Jungle Nightjar","Caprimulgus","indicus","BiP",0.0918,14800
+"Large-tailed Nightjar","Caprimulgus","macrurus","BiP",0.0662,14400
+"Lesser Nighthawk","Chordeiles","acutipennis","Mat",0.0485,10800
+"Pennant-winged Nightjar","Macrodipteryx","vexillarius","Mat",0.0724,9640
+"Common Potoo","Nyctibius","griseus","BiP",0.173,16300
+"Tawny Frogmouth","Podargus","strigoides","BiP",0.31,51100
+"Oilbird","Steatornis","caripensis","BiP",0.408,59500
+"Southern Cassowary","Casuarius","casuarius","Pat",45.1,3220000
+"Emu","Dromaius","novaehollandiae","Pat",34.2,5140000
+"Razorbill","Alca","torda","BiP",0.726,82200
+"Dovekie","Alle","alle","BiP",0.181,26900
+"Black Guillemot","Cepphus","grylle","BiP",0.378,92300
+"Rhinocerous Auklet","Cerorhinca","monocerata","BiP",0.483,75500
+"Atlantic Puffin","Fratercula","arctica","Mat",0.652,56200
+"Ancient Murrelet","Synthliboramphus","antiquus","BiP",0.207,70400
+"Common Murre","Uria","aalge","BiP",0.992,101000
+"Eurasian Thick-knee","Burhinus","oedicnemus","BiP",0.459,93200
+"Common Ringed Plover","Charadrius","hiaticula","BiP",0.0641,45800
+"Snowy Plover","Charadrius","alexandrinus","BiP",0.0423,27600
+"Eurasian Dotterel","Charadrius","morinellus","Pat",0.12,58900
+"Eurasian Golden-Plover","Pluvialis","apricaria","BiP",0.214,116000
+"Northern Lapwing","Vanellus","vanellus","BiP",0.219,102000
+"Snowy Sheathbill","Chionis","alba","BiP",0.677,98600
+"Cream-colored Courser","Cursorius","cursor","Mat",0.138,21900
+"Collared Pratincole","Glareola","pratincola","BiP",0.0849,27800
+"Egyptian Plover","Pluvianus","aegyptius","BiP",0.082,22200
+"Double-banded Courser","Rhinoptilus","africanus","BiP",0.0875,8810
+"Eurasian Oystercatcher","Haematopus","ostralegus","BiP",0.526,161000
+"Ibisbill","Ibidorhyncha","struthersii","BiP",0.294,135000
+"Pheasant-tailed Jacana","Hydrophasianus","chirurgus","Pat",0.164,57900
+"Wattled Jacana","Jacana","jacana","Pat",0.15,38000
+"Bronze-winged Jacana","Metopidius","indicus","Pat",0.155,44700
+"Black-headed Gull","Larus","ridibundus","BiP",0.284,149000
+"Herring Gull","Larus","argentatus","BiP",1.09,259000
+"Glaucous Gull","Larus","hyperboreus","BiP",1.54,357000
+"Great Black-backed Gull","Larus","marinus","BiP",1.66,386000
+"Little Gull","Larus","minutus","BiP",0.118,81900
+"Ross' Gull","Rhodosthethia","rosea","BiP",0.187,55000
+"Black-legged Kittiwake","Rissa","tridactyla","BiP",0.408,95400
+"Plains-wanderer","Pedionomus","torquatus","Pat",0.0632,41800
+"Black-winged Stilt","Himantopus","himantopus","BiP",0.161,85300
+"Pied Avocet","Recurvirostra","avosetta","BiP",0.304,119000
+"Black Skimmer","Rhynchops","niger","Mat",0.302,125000
+"Greater Painted-Snipe","Rostratula","benghalensis","Pat",0.121,41200
+"Common Sandpiper","Actitis","hypoleucos","BiP",0.048,47800
+"Spotted Sandpiper","Actitis","macularius","Pat",0.0404,37600
+"Ruddy Turnstone","Arenaria","interpres","BiP",0.136,69500
+"Upland Sandpiper","Bartramia","longicauda","BiP",0.159,104000
+"Baird's Sandpiper","Calidris","bairdii","BiP",0.0411,31600
+"Subantarctic Snipe","Coenocorypha","aucklandica","BiP",0.109,37600
+"Great Snipe","Gallinago","media","Mat",0.171,76300
+"Black-tailed Godwit","Limosa","limosa","BiP",0.291,197000
+"Eurasian Curlew","Numenius","arquata","BiP",0.806,366000
+"Wilson's Phalarope","Phalaropus","tricolor","Pat",0.06,32500
+"Red Phalarope","Phalaropus","fulicarius","Pat",0.056,30100
+"Red-necked Phalarope","Phalaropus","lobatus","Pat",0.04,29000
+"Ruff","Philomachus","pugnax","Mat",0.136,69900
+"American Woodcock","Scolopax","minor","BiP",0.198,63000
+"Eurasian Woodcock","Scolopax","rusticola","Mat",0.31,115000
+"Common Redshank","Tringa","totanus","BiP",0.129,85400
+"Great Skua","Catharacta","skua","BiP",1.34,168000
+"Long-tailed Jaeger","Stercorarius","longicaudus","BiP",0.289,84700
+"Brown Noddy","Anous","stolidus","BiP",0.178,33700
+"Black Tern","Chlidonias","niger","BiP",0.0653,32100
+"Whiskered Tern","Chlidonias","hybrida","BiP",0.0839,46800
+"White Tern","Gygis","alba","BiP",0.111,20700
+"Gull-gilled Tern","Sterna","nilotica","BiP",0.221,115000
+"Common Tern","Sterna","hirundo","BiP",0.13,53400
+"Lesser Crested Tern","Thalasseus","bengalensis","BiP",0.209,35700
+"Rufous-bellied Seedsnipe","Attagis","gayi","BiP",0.311,105000
+"Gray-breasted Seedsnipe","Thinocorus","orbignyanus","BiP",0.115,52000
+"Great Blue Heron","Ardea","herodias","BiP",2.3,272000
+"Squacco Heron","Ardeola","ralloides","BiP",0.287,49500
+"Great Bittern","Botaurus","stellaris","Mat",1.33,183000
+"Cattle Egret","Bubulcus","ibis","BiP",0.366,77500
+"Little Bittern","Ixobrychus","minutus","BiP",0.101,85700
+"Shoebill","Balaeniceps","rex","BiP",5.98,297000
+"White Stork","Ciconia","ciconia","BiP",3.45,387000
+"Hamerkop","Scopus","umbretta","BiP",0.472,111000
+"Roseate Spoonbill","Ajaia","ajaja","BiP",1.49,220000
+"Hadada Ibis","Bostrychia","hagedash","BiP",1.24,135000
+"Scarlet Ibis","Eudocimus","ruber","BiP",0.665,125000
+"Waldrapp","Geronticus","eremita","BiP",1.2,159000
+"Glossy Ibis","Plegadis","falcinellus","BiP",0.634,120000
+"Sacred Ibis","Threskiornis","aethiopicus","BiP",1.5,144000
+"Speckled Mousebird","Colius","striatus","BiP",0.0511,8750
+"Common Wood-Pigeon","Columba","palumbus","BiP",0.49,34800
+"Namaqua Dove","Oena","capensis","BiP",0.0406,5480
+"Common Kingfisher","Alcedo","atthis","BiP",0.0314,20100
+"Rufous-necked Hornbill","Aceros","nipalensis","Mat",2.39,84300
+"Indian Roller","Coracias","benghalensis","BiP",0.158,48300
+"Blue-tailed Bee-eater","Merops","philippinus","BiP",0.034,27300
+"Russet-crowned Motmot","Momotus","mexicanus","BiP",0.0757,25000
+"Green Woodhoopoe","Phoeniculus","purpureus","Mat",0.0743,13400
+"Jamaican Tody","Todus","todus","BiP",0.0064,5040
+"Eurasian Hoopoe","Upupa","epops","Mat",0.0671,26900
+"Greater Coucal","Centropus","sinensis","BiP",0.283,54000
+"Yellow-billed Cuckoo","Coccyzus","americanus","Mat",0.064,36000
+"Smooth-billed Ani","Crotophaga","ani","BiP",0.112,50000
+"Brown Kiwi","Apteryx","australis","Pat",2.33,617000
+"Little Spotted Kiwi","Apteryx","owenii","Pat",1.11,317000
+"Eurasian Sparrowhawk","Accipiter","nisus","Mat",0.238,92200
+"Northern Goshawk","Accipiter","gentilis","Mat",0.902,180000
+"Shikra","Accipiter","badius","Mat",0.132,83800
+"Cinereous Vulture","Aegypius","monachus","BiP",9.63,211000
+"Golden Eagle","Aquila","chrysaetos","Mat",4.26,271000
+"Rough-legged Hawk","Buteo","lagopus","Mat",0.956,197000
+"Short-toed Eagle","Circaetus","gallicus","Mat",1.7,126000
+"Montagu's Harrier","Circus","pygargus","Mat",0.316,139000
+"Black-shouldered Kite","Elanus","caeruleus","Mat",0.261,74000
+"Lammergeier","Gypaetus","barbatus","BiP",5.7,254000
+"Eurasian Griffon","Gyps","fulvus","BiP",7.44,232000
+"Bald Eagle","Haliaeetus","leucocephalus","BiP",4.74,219000
+"Brahminy Kite","Haliastur","indus","Mat",0.529,109000
+"Red Kite","Milvus","milvus","Mat",1.08,171000
+"Egyptian Vulture","Neophron","percnopterus","BiP",2.08,160000
+"European Honey-Buzzard","Pernis","apivorus","BiP",0.758,89200
+"African Harrier-Hawk","Polyboroides","typus","BiP",0.638,103000
+"Crested Serpent-Eagle","Spilornis","cheela","Mat",0.628,94900
+"Lappet-faced Vulture","Torgos","tracheliotus","BiP",6.97,227000
+"Turkey Vulture","Cathartes","aura","BiP",1.72,160000
+"Black Vulture","Coragyps","atratus","BiP",1.9,191000
+"King Vulture","Sarcorhamphus","papa","BiP",3.4,187000
+"Andean Condor","Vultur","gryphus","BiP",11.3,278000
+"Crested Caracara","Caracara","cheriway","BiP",0.894,187000
+"Peregrine Falcon","Falco","peregrinus","BiP",0.783,127000
+"Red-footed Falcon","Falco","vespertinus","BiP",0.153,57500
+"Lesser Kestrel","Falco","naumanni","BiP",0.153,64300
+"Gyrfalcon","Falco","rusticolus","Mat",1.46,272000
+"Pygmy Falcon","Polihierax","semitorquatus","Mat",0.0615,18700
+"Osprey","Pandion","haliaetus","BiP",1.49,193000
+"Secretary-bird","Sagittarius","serpentarius","Mat",4.02,335000
+"Swallow-wing","Chelidoptera","tenebrosa","BiP",0.0359,7340
+"Rufous-tailed Jacamar","Galbula","ruficauda","Mat",0.0265,9840
+"Great Currasow","Crax","rubra","Mat",4.13,358000
+"Australian Brush Turkey","Alectura","lathami","Pat",2.34,2580000
+"Malleefowl","Leipoa","ocelata","Pat",1.8,2710000
+"Wild Turkey","Meleagris","gallopavo","Mat",6.05,875000
+"Vulturine Guineafowl","Acryllium","vulturinum","Mat",1.33,585000
+"Gambel's Quail","Callipepla","gambelii","Mat",0.166,104000
+"Northern Bobwhite","Colinus","virginianus","BiP",0.178,112000
+"Rock Partridge","Alectoris","graeca","Mat",0.615,199000
+"See-see Partridge","Ammoperdix","griseogularis","Mat",0.203,87100
+"Great Argus","Argusianus","argus","Mat",1.99,134000
+"Common Quail","Coturnix","coturnix","Mat",0.097,89800
+"Blue-breasted Quail","Coturnix","chinensis","Mat",0.042,27600
+"Black Francolin","Francolinus","francolinus","Mat",0.453,140000
+"Red Junglefowl","Gallus","gallus","Mat",0.78,158000
+"Himalayan Monal","Lophophorus","impejanus","Mat",2.08,371000
+"Jungle Bush-Quail","Perdicula","asiatica","Mat",0.07,31800
+"Gray Partridge","Perdix","perdix","Mat",0.406,152000
+"Ring-necked Pheasant","Phasianus","colchicus  1.14E+00 3.00E+05","Mat",1.14,3e+05
+"Koklass Pheasant","Pucrasia","macrolopha","Mat",1.06,218000
+"Sage Grouse","Centrocercus","urophasianus","Mat",2.21,316000
+"Spruce Grouse","Falcipennis","canadensis","Mat",0.474,208000
+"Willow Ptarmigan","Lagopus","lagopus","Mat",0.571,208000
+"Capercaillie","Tetrao","urogallus","Mat",2.95,312000
+"Greater Prairie-Chicken","Tympanuchus","cupido","Mat",0.876,288000
+"Common Loon","Gavia","immer","BiP",4.98,317000
+"Limpkin","Aramus","guarauna","BiP",1.08,352000
+"Red-legged Seriema","Cariama","cristata","BiP",1.4,143000
+"Black Crowned-Crane","Balearica","pavonina","BiP",3.59,322000
+"Common Crane","Grus","grus","BiP",5.5,382000
+"Sarus Crane","Grus","antigone","BiP",5.96,396000
+"Subdesert Mesite","Monias","benschi","Pat",0.138,22900
+"Houbara Bustard","Chlamydotis","undulata","Mat",1.56,195000
+"Red-crested Bustard","Eupodotis","ruficrista","Mat",0.714,83200
+"Bengal Florican","Houbaropsis","bengalensis","Mat",2.03,130000
+"Stanley Bustard","Neotis","denhami","Mat",4.83,225000
+"Little Bustard","Tetrax","tetrax","Mat",0.834,152000
+"Corn Crake","Crex","crex","Mat",0.156,133000
+"Eurasian Coot","Fulica","atra","BiP",0.734,260000
+"Common Moorhen","Gallinula","chloropus","BiP",0.344,167000
+"Slaty-breasted Rail","Gallirallus","striatus","BiP",0.116,83300
+"Purple Swamphen","Porphyrio","porphyrio","BiP",0.794,161000
+"Sora","Porzana","carolina","BiP",0.0748,76500
+"Little Crake","Porzana","parva","BiP",0.0497,50600
+"Ruddy-breasted Crake","Porzana","fusca","BiP",0.0576,62700
+"Kagu","Rhynochetus","jubata","BiP",0.86,64900
+"Small Buttonquail","Turnix","sylvatica","Pat",0.054,18000
+"Great Blue Turaco","Corythaeola","cristata","BiP",0.965,67700
+"Long-tailed Tit","Aegithalos","caudatus","BiP",0.0086,7870
+"Common Iora","Aegithina","tiphia","BiP",0.012,4070
+"Sky Lark","Alauda","arvensis","Mat",0.0375,11200
+"Rufous-tailed Lark","Ammomanes","phoenicurus","BiP",0.0256,7230
+"Red-capped Lark","Calandrella","cinerea","BiP",0.0237,8790
+"Spike-heeled Lark","Chersomanes","albofasciata","BiP",0.0494,5880
+"Horned Lark","Eremophila","alpestris","Mat",0.0335,11800
+"Crested Lark","Galerida","cristata","Mat",0.0428,12200
+"Woodlark","Lullula","arborea","Mat",0.0269,9010
+"Ashy Woodswallow","Artamus","fuscus","BiP",0.0398,7980
+"Bohemian Waxwing","Bombycilla","garrulus","Mat",0.0545,17000
+"Saddleback","Creadion","carunculatus","BiP",0.075,17700
+"Northern Cardinal","Cardinalis","cardinalis","Mat",0.0427,13400
+"Dickcissel","Spiza","americana","Mat",0.0263,10000
+"Eurasian Treecreeper","Certhia","familiaris","BiP",0.009,7050
+"Spotted Creeper","Salpornis","spilonotus","BiP",0.0148,4180
+"White-throated Dipper","Cinclus","cinclus","Mat",0.0617,21500
+"Zitting Cisticola","Cisticola","juncidis","BiP",0.0069,5060
+"Graceful Prinia","Prinia","gracilis","BiP",0.0071,2920
+"Plain Prinia","Prinia","inornata","BiP",0.007,4300
+"Tawny-flanked Prinia","Prinia","subflava","BiP",0.0087,3540
+"Western Scrub Jay","Aphelocoma","californica","Mat",0.0862,20900
+"Cape Crow","Corvus","capensis","BiP",0.553,73100
+"Eurasian Jackdaw","Corvus","monedula","Mat",0.246,49500
+"Common Raven","Corvus","corax","Mat",0.941,148000
+"Blue Jay","Cyanocitta","cristata","Mat",0.088,22400
+"Bushy-crested Jay","Cyanocorax","melanocyaneus","Mat",0.101,22400
+"San Blas Jay","Cyanocorax","sanblasiana","Mat",0.109,26900
+"Azure-winged Magpie","Cyanopica","cyana","Mat",0.096,38600
+"Eurasian Jay","Garrulus","glandarius","BiP",0.168,45700
+"Eurasian Nutcracker","Nucifraga","caryocatactes","BiP",0.183,28300
+"Siberian Jay","Perisoreus","infaustus","Mat",0.0844,32500
+"Eurasian Magpie","Pica","pica","Mat",0.218,64300
+"Turkestan Ground-Jay","Podoces","panderi","Mat",0.0911,21300
+"Red-billed Chough","Pyrrhocorax","pyrrhocorax","Mat",0.278,55900
+"Rufous-tailed Plantcutter","Phytotoma","rara","Mat",0.047,12400
+"Guianan Cock-of-the-rock","Rupicola","rupicola","Mat",0.195,43000
+"Scimitar-billed Woodcreeper","Drymornis","bridgesii","BiP",0.094,21100
+"Black Drongo","Dicrurus","macrocercus","BiP",0.0483,15600
+"Bronzed Drongo","Dicrurus","aeneas","BiP",0.0265,12300
+"Fork-tailed Drongo","Dicrurus","adsimilis","BiP",0.0403,9160
+"Hair-crested Drongo","Dicrurus","hottentottus","BiP",0.0792,22100
+"Lapland Longspur","Calcarius","lapponicus","BiP",0.0279,11800
+"Corn Bunting","Emberiza","calandra","Mat",0.0488,14700
+"Yellowhammer","Emberiza","citrinella","Mat",0.0297,9600
+"Snow Bunting","Plectrophenax","nivalis","Mat",0.0422,13500
+"Chipping Sparrow","Spizella","passerina","Mat",0.0122,6030
+"White-rumped Munia","Lonchura","striata","BiP",0.0123,4220
+"Long-tailed Broadbill","Psarisomus","dalhousiae","BiP",0.067,25900
+"Silver-breasted Broadbill","Serilophus","lunatus","BiP",0.034,17700
+"Streak-chested Antpitta","Hylopezus","perspicillatus","BiP",0.043,11100
+"European Goldfinch","Carduelis","carduelis","Mat",0.016,6570
+"Common Rosefinch","Carpodacus","erythrinus","Mat",0.024,10200
+"Hawfinch","Coccothraustes","coccothraustes","Mat",0.0567,10200
+"Blue Chaffinch","Fringilla","teydea","Mat",0.0303,4700
+"Chaffinch","Fringilla","coelebs","Mat",0.024,9650
+"Red Crossbill","Loxia","curvirostra","Mat",0.0385,9220
+"Pine Grosbeak","Pinicola","enucleator","Mat",0.0564,15300
+"Eurasian Bullfinch","Pyrrhula","pyrrhula","Mat",0.0244,9000
+"European Serin","Serinus","serinus","Mat",0.0112,4550
+"Barn Swallow","Hirundo","rustica","Mat",0.018,8160
+"Red-winged Blackbird","Agelaius","phoeniceus","Mat",0.0524,14700
+"Bullock's Oriole","Icterus","bullockii","Mat",0.0379,12400
+"Asian Fairy-Bluebird","Irena","puella","Mat",0.0649,11800
+"Red-backed Shrike","Lanius","collurio","Mat",0.0285,15800
+"Woodchat Shrike","Lanius","senator","Mat",0.036,19500
+"Southern Boubou","Laniarius","ferrugineus","BiP",0.0468,9370
+"Black-crowned Tchagra","Tchagra","senegala","Mat",0.0535,11000
+"Superb Fairywren","Malurus","cyaneus","Mat",0.0101,4740
+"New Zealand Bellbird","Anthornis","melanura","Mat",0.0272,12100
+"Tui","Prosthemadera","novaeseelandiae","Mat",0.107,25600
+"Superb Lyrebird","Menura","novaehollandiae","Mat",0.98,58500
+"Gray Catbird","Dumetella","carolinensis","Mat",0.0355,13100
+"Northern Mockingbird","Mimus","polyglottos","Mat",0.0485,15900
+"California Thrasher","Toxostoma","redivivum","BiP",0.0844,19000
+"Black-naped Monarch","Hypothymis","azurea","BiP",0.0111,5280
+"Asian Paradise-Flycatcher","Terpsiphone","paradisi","BiP",0.0185,7690
+"Australasian Pipit","Anthus","novaeseelandiae","Mat",0.0241,14000
+"Tree Pipit","Anthus","trivialis","Mat",0.0234,12300
+"Yellow-throated Longclaw","Macronyx","croceus","Mat",0.0471,10200
+"Gray Wagtail","Motacilla","cinerea","BiP",0.0172,9500
+"Yellow Wagtail","Motacilla","flava","Mat",0.0177,10400
+"Wrentit","Chamaea","fasciata","BiP",0.0148,7400
+"Spotted Flycatcher","Muscicapa","striata","BiP",0.0159,7740
+"Rufous-bellied Niltava","Niltava","sundara","BiP",0.0211,9410
+"Little Spiderhunter","Arachnothera","longirostra","BiP",0.0126,3100
+"Streaked Spiderhunter","Arachnothera","magna","BiP",0.0307,4930
+"Eastern Olive-Sunbird","Cyanomitra","olivacea","Mat",0.0099,2640
+"Golden Whistler","Pachycephala","pectoralis","BiP",0.0303,7180
+"Huon Astrapia","Astrapia","rothschildi","Mat",0.183,12800
+"Superb Bird-of-paradise","Lophorina","superba","Mat",0.077,7070
+"Trumpet Manucode","Manucodia","keraudrenii","BiP",0.156,22000
+"Lesser Bird-of-paradise","Paradisaea","minor","Mat",0.214,19300
+"Paradise Riflebird","Ptiloris","paradiseus","Mat",0.121,18900
+"Twelve-wired Bird-of-paradise","Seleucides","melanoleuca","Mat",0.175,14100
+"Bearded Reedling","Panurus","biarmicus","BiP",0.0139,9200
+"Great Tit","Parus","major","Mat",0.0158,10800
+"Yellow Warbler","Dendroica","petechia","Mat",0.0096,6400
+"Prothonotary Warbler","Protonaria","citrea","Mat",0.0143,9920
+"White-winged Snowfinch","Montifringilla","nivalis","BiP",0.0369,15000
+"House Sparrow","Passer","domesticus","Mat",0.026,9640
+"White-bearded Manakin","Manacus","manacus","Mat",0.0192,5020
+"Blue-naped Pitta","Pitta","nipalensis","BiP",0.124,31300
+"Grosbeak Weaver","Ambylospiza","albifrons","Mat",0.042,8270
+"Black-winged Bishop","Euplectes","hordeaceus","Mat",0.0194,4520
+"Crested Matlimbe","Malimbus","malimbicus","Mat",0.0362,6800
+"Asian Golden Weaver","Ploceus","hypoxanthus","Mat",0.0186,4650
+"Cape Weaver","Ploceus","capensis","Mat",0.0442,9600
+"Red-billed Quelea","Quelea","quelea","BiP",0.0186,4910
+"Cardinal Quelea","Quelea","cardinalis","Mat",0.0127,3030
+"Blue-gray Gnatcatcher","Polioptila","caerulea","BiP",0.0058,3890
+"Cape Sugarbird","Promerops","cafer","Mat",0.0349,7770
+"Dunnock","Prunella","modularis","Mat",0.0203,8770
+"Phainopepla","Phainopepla","nitens","BiP",0.0221,7180
+"Regent Bowerbird","Sericulus","chrysocephalus","Mat",0.1,23900
+"Great Bowerbird","Chlamydera","nuchalis","Mat",0.201,17200
+"Sombre Bulbul","Andropadus","importunus","Mat",0.0274,6010
+"Red-vented Bulbul","Pycnonotus","cafer","BiP",0.043,6740
+"Red-whiskered Bulbul","Pycnonotus","jocosus","BiP",0.0296,6590
+"Goldcrest","Regulus","regulus","Mat",0.0056,5850
+"Eurasian Penduline-Tit","Remiz","pendulinus","Mat",0.0093,5530
+"Magellanic Tapaculo","Scytalopus","magellanicus","BiP",0.0136,6850
+"White-throated Fantail","Rhipidura","albicollis","BiP",0.0129,3640
+"Eurasian Nuthatch","Sitta","europaea","Mat",0.0226,16600
+"Red-billed Oxpecker","Buphagus","erythrorhynchus","BiP",0.0508,8160
+"Greater Blue-eared Glossy-Starling","Lamprotornis","chalybaeus","Mat",0.087,19700
+"Red-winged Starling","Onychognathus","morio","Mat",0.133,25600
+"Eurasian Starling","Sturnus","vulgaris","BiP",0.0741,40500
+"Marsh Warbler","Acrocephalus","palustris","BiP",0.0115,7370
+"Cetti's Warbler","Cettia","cetti","Mat",0.0134,6690
+"African Yellow Warbler","Chloropeta","natalensis","BiP",0.0117,2260
+"Booted Warbler","Hippolais","caligata","Mat",0.0089,4700
+"White-browed Tit-Warbler","Leptopoecile","sophiae","BiP",0.0069,4470
+"Savi's Warbler","Locustella","luscinioides","Mat",0.0139,8550
+"Common Tailorbird","Orthotomus","sutorius","BiP",0.0075,3140
+"Willow Warbler","Phylloscopus","trochilus","Mat",0.0087,6800
+"Wood Warbler","Phylloscopus","sibilatrix","Mat",0.0092,7640
+"Garden Warbler","Sylvia","borin","BiP",0.0182,9650
+"Blackcap","Sylvia","atricapilla","BiP",0.0167,10500
+"Orophean Warbler","Sylvia","hortensis","BiP",0.0219,9650
+"Great Antshrike","Taraba","major","BiP",0.0592,16000
+"Wallcreeper","Tichodroma","muraria","Mat",0.0176,9410
+"Silver-eared Mesia","Leiothrix","argentauris","BiP",0.0284,9010
+"Red-faced Liocichla","Liocichla","phoenicea","BiP",0.049,11300
+"Streaked Wren-Babbler","Napothera","brevicaudata","BiP",0.0195,9820
+"White-browed Scimitar-Babbler","Pomatorhinus","schisticeps","BiP",0.043,14500
+"Common Babbler","Turdoides","caudatus","BiP",0.0397,10900
+"Cactus Wren","Campylorhynchus","brunneicapillus","Mat",0.0389,14700
+"Marsh Wren","Cistothorus","palustris","Mat",0.0108,5120
+"Black-capped Donacobius","Donacobius","atricapillus","Mat",0.0368,6630
+"Rock Wren","Salpinctes","obsoletus","Mat",0.0164,10600
+"Winter Wren","Troglodytes","troglodytes","Mat",0.0098,8810
+"Lesser Shortwing","Brachypteryx","leucophrys","BiP",0.0158,7880
+"Karoo Scrub-Robin","Cercotrichas","coryphaeus","Mat",0.0204,6540
+"Rufous-tailed Scrub-Robin","Cercotrichas","galactotes","Mat",0.0203,12900
+"White-capped Water-Redstart","Chaimarrornis","leucocephalus","Mat",0.0304,11400
+"White-tailed Robin","Cinclidium","leucurum","BiP",0.027,10900
+"Oriental Magpie-Robin","Copsychus","saularis","BiP",0.036,14100
+"Red-capped Robin-Chat","Cossypha","natalensis","Mat",0.0341,8810
+"European Robin","Erithacus","rubecula","Mat",0.0177,12300
+"White-bellied Redstart","Hodgsonius","phoenicuroides","Mat",0.0211,8090
+"Common Nightingale","Luscinia","megarhynchos","Mat",0.0196,10600
+"Indian Blue Robin","Luscinia","brunnea","Mat",0.0175,7800
+"Blue-capped Rock-Thrush","Monticola","cinclorhynchus","BiP",0.036,15500
+"Rufous-tailed Rock-Thrush","Monticola","saxatilis","Mat",0.0503,20000
+"Black Redstart","Phoenicurus","ochruros","Mat",0.0165,9750
+"Common Redstart","Phoenicurus","phoenicurus","Mat",0.0146,10300
+"Plumbeous Redstart","Rhyacornis","fuliginosus","Mat",0.0204,7600
+"Gray Bushchat","Saxicola","ferrea","Mat",0.0149,7870
+"Red-flanked Bluetail","Tarsiger","cyanurus","Mat",0.0135,7000
+"Mistle Thrush","Turdus","viscivorus","Mat",0.118,29600
+"Song Thrush","Turdus","philomelos","BiP",0.0678,26000
+"American Robin","Turdus","migratorius","Mat",0.0785,23300
+"Eurasian Blackbird","Turdus","merula","Mat",0.103,26500
+"Yellow-bellied Elaenia","Elaenia","flavogaster","Mat",0.0248,4700
+"Great Crested Flycatcher","Myiarchus","crinitus","Mat",0.0321,16000
+"Tropical Kingbird","Tyrannus","melancholicus","Mat",0.0374,16500
+"Hook-billed Vanga","Vanga","curvirostris","BiP",0.0645,13100
+"Oriental White-eye","Zosterops","palpebrosa","BiP",0.0086,3040
+"Anhinga","Anhinga","anhinga","BiP",1.24,153000
+"Magnificent Frigatebird","Fregata","magnificens","BiP",1.41,117000
+"Great White Pelican","Pelecanus","onocrotalus","BiP",9.52,316000
+"Red-billed Tropicbird","Phaethon","aethereus","BiP",0.75,51700
+"Great Cormorant","Phalacrocorax","carbo","BiP",2.57,181000
+"Northern Gannet","Sula","bassanus","BiP",3,85700
+"Greater Flamingo","Phoenicopterus","ruber","BiP",3.07,134000
+"Blue-throated Barbet","Megalaima","asiatica","BiP",0.0905,22000
+"Black Woodpecker","Dryocopus","martius","BiP",0.321,51300
+"Great Crested Grebe","Podiceps","cristatus","BiP",0.674,143000
+"Wandering Albatross","Diomedea","exulans","BiP",7.05,447000
+"European Storm-Petrel","Hydrobates","pelagicus","BiP",0.0252,5890
+"Common Diving-Petrel","Pelecanoides","urinatrix","BiP",0.141,19100
+"Bulwer's Petrel","Bulweria","bulwerii","BiP",0.099,20200
+"Northern Fulmar","Fulmarus","glacialis","BiP",0.613,88800
+"Rose-ringed Parakeet","Psittacula","krameri","BiP",0.117,36400
+"Painted Sandgrouse","Pterocles","indicus","BiP",0.179,29100
+"Pin-tailed Sandgrouse","Pterocles","alchata","BiP",0.285,55100
+"Pallas' Sandgrouse","Syrrhaptes","paradoxus","BiP",0.257,56600
+"King Penguin","Aptenodytes","patagonica","BiP",11.8,286000
+"Eurasian Eagle-Owl","Bubo","bubo","Mat",2.69,287000
+"Barn Owl","Tyto","alba","Mat",0.418,114000
+"Greater Rhea","Rhea","americana","Pat",23,6600000
+"Lesser Rhea","Rhea","pennata","Pat",23.9,14200000
+"Ostrich","Struthio","camelus","Pat",111,22100000
+"Brazilian Tinamou","Crypturellus","strigulosus","Pat",0.431,136000
+"Little Tinamou","Crypturellus","soui","Pat",0.207,43600
+"Small-billed Tinamou","Crypturellus","parvirostris","Pat",0.22,74400
+"Tataupa Tinamou","Crypturellus","tataupa","Pat",0.22,93800
+"Thicket Tinamou","Crypturellus","cinnamomeus","Pat",0.422,224000
+"Undulated Tinamou","Crypturellus","undulatus","Pat",0.567,210000
+"Variegated Tinamou","Crypturellus","variegatus","Pat",0.317,30400
+"Elegant Crested Tinamou","Eudromia","elegans","Pat",0.704,263000
+"Highland Tinamou","Nothocercus","bonapartei","Pat",0.925,637000
+"Brushland Tinamou","Nothoprocta","cinerascens","Pat",0.526,325000
+"Chilean Tinamou","Nothoprocta","perdicaria","Pat",0.458,212000
+"Ornate Tinamou","Nothoprocta","ornata","Pat",0.622,252000
+"Spotted Nothura","Nothura","maculosa","Pat",0.258,109000
+"Darwin's Nothura","Nothura","darwinii","Pat",0.246,122000
+"Red-winged Tinamou","Rhynchotus","rufescens","Pat",0.845,265000
+"Black Tinamou","Tinamus","osgoodi","Pat",1.29,197000
+"Gray Tinamou","Tinamus","tao","Pat",1.6,610000
+"Great Tinamou","Tinamus","major","Pat",1.03,307000
+"Solitary Tinamou","Tinamus","solitarius","Pat",1.39,486000
+"Resplendent Quetzal","Pharomachrus","mocino","BiP",0.203,25100
+"Citreoline Trogon","Trogon","citreolus","BiP",0.079,23100
+"Amurosaurus","Lambeosaurine","riabinini","Othr",2500,92200000
+"Maiasaura","Maiasaura","peeblesorum","Othr",2500,14400000
+"Massospondylus","Massospondylus","carinatus","Othr",107,678000
+"Oviraptor","Oviraptor","philoceratops","Mani",39,7140000
+"Lourinhanosaurus","Lourinhanosaurus","antunesi","Othr",176,7070000
+"Citipati","Citipati","osmolskae","Mani",79.2,8770000
+"Troodon","Troodon","formosus","Mani",51.4,7580000
+"Megaloolithus","Megaloolithus","patagonicus","Othr",5000,38500000
+"Megaloolithus","Megaloolithus","sirguei","Othr",5000,41500000
+"American Alligator","Alligator","mississippiensis","Croc",47.8,2540000
+"Broad-snouted Caiman","Caiman","latirostris","Croc",14.6,2300000
+"Yacare Caiman","Caiman","yacare","Croc",13,2230000
+"Black Caiman","Melanosuchus","niger","Croc",82,4120000
+"Cuvier's Dwarf Caiman","Paleosuchus","palpebrosus","Croc",5.9,811000
+"Smooth-fronted Caiman","Paleosuchus","trigonatus","Croc",7.5,1150000
+"American Crocodile","Crocodylus","acutus","Croc",76.7,2600000
+"Slender-snouted Crocodile","Crocodylus","cataphractus","Croc",50.5,2290000
+"Nile Crocodile","Crocodylus","niloticus","Croc",94.2,4310000
+"Marsh Crocodile","Crocodylus","palustris","Croc",42.7,1950000
+"Estuarine Crocodile","Crocodylus","porosus","Croc",78.7,5420000
+"Orinoco Crocodile","Crocodylus","intermedius","Croc",108,4970000
+"Freshwater Crocodile","Crocodylus","johnsoni","Croc",19.5,756000
+"Philippine Crocodile","Crocodylus","mindorensis","Croc",36.9,997000
+"Morelet's Crocodile","Crocodylus","moreletti","Croc",31.7,2710000
+"New Guinea Crocodile","Crocodylus","novaeguineae","Croc",39.9,2160000
+"Dwarf Crocodile","Osteolaemus","tetraspis","Croc",18.8,556000
+"Gharial","Gavialis","gangeticus","Croc",147,7870000
+"False Gharial","Tomistoma","schlegelii","Croc",119,5380000
